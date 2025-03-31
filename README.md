@@ -14,12 +14,12 @@ This project focuses on testing the model proposed in the paper: **"A Trainable 
 ```
 📂 project-root/
 │
-├── 📂 pretrained_models/          # Your fine-tuned models
+├── 📂 pretrained_models/          
 │   ├── 📄 epoch11.ckpt           # Trained for dcmall data 11 epochs (11,057 KB)
 │   ├── 📄 icvl_constant_5.ckpt    # Constant noise σ=5 (9,781 KB)
 │   └── 📄 icvl_uniform_95.ckpt   # Uniform noise σ=95 (10,686 KB)
 │
-├── 📂 results/                    # Your experimental outputs
+├── 📂 results/                    # experimental outputs
 │   ├── 📂 2025-03-23_15-41-05/   # Tests on constant σ=5
 │   └── 📂 2025-03-30_22-52-17/   # Tests on stripes σ=25
 │
