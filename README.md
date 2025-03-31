@@ -11,6 +11,7 @@ This project focuses on testing the model proposed in the paper: **"A Trainable 
 - **Link:** https://proceedings.neurips.cc/paper/2021/file/2b515e2bdd63b7f034269ad747c93a42-Paper.pdf  
 
 ## 📁 Repository Structure
+```
 📂 project-root/
 │
 ├── 📂 pretrained_models/          # Your fine-tuned models
@@ -30,7 +31,7 @@ This project focuses on testing the model proposed in the paper: **"A Trainable 
 ├── 📜 .gitignore                  # Custom excludes (e.g., .ckpt)
 ├── 📜 README.md                   
 └── 📜 requirements.txt            # updated requirements
-
+```
 ## 🛠️ Code Modifications
 1) **Less Requirements**  
    The versions of some dependencies are no longer specified in the `requirements.txt` file, as these versions are incompatible with Python 3.12. This update ensures that the code remains compatible with the latest Python releases without version restrictions on dependencies.
