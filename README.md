@@ -12,12 +12,14 @@ This project focuses on testing the model proposed in the paper: **"A Trainable 
 
 ## 📁 Repository Structure
 📂 project-root │-- 📂 data/ # Datasets used for testing │-- 📂 models/ # Model weights and configurations │-- 📂 results/ # Output images, metrics, and plots │-- 📂 scripts/ # Python scripts for preprocessing, evaluation, and visualization │-- 📜 README.md # Project documentation (this file) │-- 📜 requirements.txt # Required dependencies │-- 📜 main.ipynb # Jupyter Notebook for running tests
+
+## 🛠️ Code Modifications
 1) **Less Requirements**  
    The versions of some dependencies are no longer specified in the `requirements.txt` file, as these versions are incompatible with Python 3.12. This update ensures that the code remains compatible with the latest Python releases without version restrictions on dependencies.
 
 2) **Changes in `train.py`**  
    In the `train.py` script, lines 60 and 61 were commented out to ensure compatibility with recent versions of PyTorch. These lines previously instantiated the trainer with the following code:
-   ```python
+```python
    # Instantiate trainer
    trainer = pl.Trainer(
        callbacks=callbacks,
@@ -25,7 +27,7 @@ This project focuses on testing the model proposed in the paper: **"A Trainable 
        #progress_bar_refresh_rate=0,
        #**cfg.trainer.params,
    )
- ```
+```
 
 Since the progress_bar_refresh_rate argument and other configurations are no longer supported in the recent versions of PyTorch Lightning, these lines were disabled to avoid errors.
 
