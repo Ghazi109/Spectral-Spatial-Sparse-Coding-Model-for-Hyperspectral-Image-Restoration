@@ -1,0 +1,5 @@
+- mode=test
+- data=icvl
+- noise=stripes
+- noise.params.sigma=25
+- model.ckpt=/content/drive/MyDrive/T3SC-main/icvl_constant_5.ckpt

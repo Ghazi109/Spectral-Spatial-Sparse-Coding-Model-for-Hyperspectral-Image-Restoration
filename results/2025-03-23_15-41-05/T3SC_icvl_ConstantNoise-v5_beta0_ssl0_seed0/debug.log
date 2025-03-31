@@ -1,0 +1,1871 @@
+[2025-03-23 15:41:05,698][__main__][INFO] - Current working directory : /content/data/tests/2025-03-23_15-41-05/T3SC_icvl_ConstantNoise-v5_beta0_ssl0_seed0
+[2025-03-23 15:41:05,699][t3sc.test][INFO] - Device in use : cuda
+[2025-03-23 15:41:05,699][t3sc.test][INFO] - Using random seed 0
+[2025-03-23 15:41:05,706][t3sc.data.factories.icvl][INFO] - Dataset downloaded
+[2025-03-23 15:41:05,707][t3sc.data.factories.icvl][INFO] - Preprocessing sat_0406-1157-1
+[2025-03-23 15:41:09,209][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:09,614][t3sc.data.factories.icvl][INFO] - Saved normalized image 1/152 to /content/data/ICVL/clean/sat_0406-1157-1.pth
+[2025-03-23 15:41:09,614][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1152
+[2025-03-23 15:41:12,699][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:13,102][t3sc.data.factories.icvl][INFO] - Saved normalized image 2/152 to /content/data/ICVL/clean/nachal_0823-1152.pth
+[2025-03-23 15:41:13,102][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1150
+[2025-03-23 15:41:16,162][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:16,900][t3sc.data.factories.icvl][INFO] - Saved normalized image 3/152 to /content/data/ICVL/clean/omer_0331-1150.pth
+[2025-03-23 15:41:16,900][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1200-1
+[2025-03-23 15:41:20,917][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:21,378][t3sc.data.factories.icvl][INFO] - Saved normalized image 4/152 to /content/data/ICVL/clean/plt_0411-1200-1.pth
+[2025-03-23 15:41:21,378][t3sc.data.factories.icvl][INFO] - Preprocessing objects_0924-1652
+[2025-03-23 15:41:24,153][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:24,555][t3sc.data.factories.icvl][INFO] - Saved normalized image 5/152 to /content/data/ICVL/clean/objects_0924-1652.pth
+[2025-03-23 15:41:24,555][t3sc.data.factories.icvl][INFO] - Preprocessing Labtest_0910-1504
+[2025-03-23 15:41:27,528][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:27,941][t3sc.data.factories.icvl][INFO] - Saved normalized image 6/152 to /content/data/ICVL/clean/Labtest_0910-1504.pth
+[2025-03-23 15:41:27,941][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1633
+[2025-03-23 15:41:30,927][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:31,599][t3sc.data.factories.icvl][INFO] - Saved normalized image 7/152 to /content/data/ICVL/clean/Lehavim_0910-1633.pth
+[2025-03-23 15:41:31,599][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1626
+[2025-03-23 15:41:35,521][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:35,931][t3sc.data.factories.icvl][INFO] - Saved normalized image 8/152 to /content/data/ICVL/clean/Lehavim_0910-1626.pth
+[2025-03-23 15:41:35,932][t3sc.data.factories.icvl][INFO] - Preprocessing rsh_0406-1356
+[2025-03-23 15:41:39,109][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:39,604][t3sc.data.factories.icvl][INFO] - Saved normalized image 9/152 to /content/data/ICVL/clean/rsh_0406-1356.pth
+[2025-03-23 15:41:39,604][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1633
+[2025-03-23 15:41:42,638][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:43,386][t3sc.data.factories.icvl][INFO] - Saved normalized image 10/152 to /content/data/ICVL/clean/eve_0331-1633.pth
+[2025-03-23 15:41:43,387][t3sc.data.factories.icvl][INFO] - Preprocessing sami_0331-1019
+[2025-03-23 15:41:47,308][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:48,620][t3sc.data.factories.icvl][INFO] - Saved normalized image 11/152 to /content/data/ICVL/clean/sami_0331-1019.pth
+[2025-03-23 15:41:48,620][t3sc.data.factories.icvl][INFO] - Preprocessing lehavim_0910-1607
+[2025-03-23 15:41:51,448][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:53,124][t3sc.data.factories.icvl][INFO] - Saved normalized image 12/152 to /content/data/ICVL/clean/lehavim_0910-1607.pth
+[2025-03-23 15:41:53,124][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1702
+[2025-03-23 15:41:56,101][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:41:56,524][t3sc.data.factories.icvl][INFO] - Saved normalized image 13/152 to /content/data/ICVL/clean/eve_0331-1702.pth
+[2025-03-23 15:41:56,524][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1549
+[2025-03-23 15:42:00,368][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:01,020][t3sc.data.factories.icvl][INFO] - Saved normalized image 14/152 to /content/data/ICVL/clean/eve_0331-1549.pth
+[2025-03-23 15:42:01,020][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1222
+[2025-03-23 15:42:04,204][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:05,417][t3sc.data.factories.icvl][INFO] - Saved normalized image 15/152 to /content/data/ICVL/clean/nachal_0823-1222.pth
+[2025-03-23 15:42:05,417][t3sc.data.factories.icvl][INFO] - Preprocessing Labtest_0910-1502
+[2025-03-23 15:42:08,269][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:08,694][t3sc.data.factories.icvl][INFO] - Saved normalized image 16/152 to /content/data/ICVL/clean/Labtest_0910-1502.pth
+[2025-03-23 15:42:08,695][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1144
+[2025-03-23 15:42:11,886][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:12,550][t3sc.data.factories.icvl][INFO] - Saved normalized image 17/152 to /content/data/ICVL/clean/nachal_0823-1144.pth
+[2025-03-23 15:42:12,551][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1130
+[2025-03-23 15:42:16,454][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:17,006][t3sc.data.factories.icvl][INFO] - Saved normalized image 18/152 to /content/data/ICVL/clean/omer_0331-1130.pth
+[2025-03-23 15:42:17,006][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1102
+[2025-03-23 15:42:20,054][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:21,736][t3sc.data.factories.icvl][INFO] - Saved normalized image 19/152 to /content/data/ICVL/clean/omer_0331-1102.pth
+[2025-03-23 15:42:21,736][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1203
+[2025-03-23 15:42:25,052][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:25,715][t3sc.data.factories.icvl][INFO] - Saved normalized image 20/152 to /content/data/ICVL/clean/BGU_0522-1203.pth
+[2025-03-23 15:42:25,715][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1119
+[2025-03-23 15:42:29,565][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:30,050][t3sc.data.factories.icvl][INFO] - Saved normalized image 21/152 to /content/data/ICVL/clean/omer_0331-1119.pth
+[2025-03-23 15:42:30,050][t3sc.data.factories.icvl][INFO] - Preprocessing lehavim_0910-1600
+[2025-03-23 15:42:33,144][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:36,255][t3sc.data.factories.icvl][INFO] - Saved normalized image 22/152 to /content/data/ICVL/clean/lehavim_0910-1600.pth
+[2025-03-23 15:42:36,256][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1046
+[2025-03-23 15:42:39,614][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:43,109][t3sc.data.factories.icvl][INFO] - Saved normalized image 23/152 to /content/data/ICVL/clean/plt_0411-1046.pth
+[2025-03-23 15:42:43,109][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1632
+[2025-03-23 15:42:46,145][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:42:52,627][t3sc.data.factories.icvl][INFO] - Saved normalized image 24/152 to /content/data/ICVL/clean/eve_0331-1632.pth
+[2025-03-23 15:42:52,627][t3sc.data.factories.icvl][INFO] - Preprocessing hill_0325-1228
+[2025-03-23 15:42:57,107][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1196) 
+[2025-03-23 15:43:02,874][t3sc.data.factories.icvl][INFO] - Saved normalized image 25/152 to /content/data/ICVL/clean/hill_0325-1228.pth
+[2025-03-23 15:43:02,874][t3sc.data.factories.icvl][INFO] - Preprocessing lehavim_0910-1602
+[2025-03-23 15:43:06,849][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:08,242][t3sc.data.factories.icvl][INFO] - Saved normalized image 26/152 to /content/data/ICVL/clean/lehavim_0910-1602.pth
+[2025-03-23 15:43:08,242][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1647
+[2025-03-23 15:43:11,295][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:13,185][t3sc.data.factories.icvl][INFO] - Saved normalized image 27/152 to /content/data/ICVL/clean/eve_0331-1647.pth
+[2025-03-23 15:43:13,185][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1211
+[2025-03-23 15:43:16,308][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:17,346][t3sc.data.factories.icvl][INFO] - Saved normalized image 28/152 to /content/data/ICVL/clean/BGU_0522-1211.pth
+[2025-03-23 15:43:17,347][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1705
+[2025-03-23 15:43:21,130][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:21,555][t3sc.data.factories.icvl][INFO] - Saved normalized image 29/152 to /content/data/ICVL/clean/eve_0331-1705.pth
+[2025-03-23 15:43:21,555][t3sc.data.factories.icvl][INFO] - Preprocessing bguCAMP_0514-1711
+[2025-03-23 15:43:24,364][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:24,780][t3sc.data.factories.icvl][INFO] - Saved normalized image 30/152 to /content/data/ICVL/clean/bguCAMP_0514-1711.pth
+[2025-03-23 15:43:24,780][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1037
+[2025-03-23 15:43:27,491][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:29,407][t3sc.data.factories.icvl][INFO] - Saved normalized image 31/152 to /content/data/ICVL/clean/plt_0411-1037.pth
+[2025-03-23 15:43:29,408][t3sc.data.factories.icvl][INFO] - Preprocessing sat_0406-1107
+[2025-03-23 15:43:32,856][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:33,398][t3sc.data.factories.icvl][INFO] - Saved normalized image 32/152 to /content/data/ICVL/clean/sat_0406-1107.pth
+[2025-03-23 15:43:33,399][t3sc.data.factories.icvl][INFO] - Preprocessing sat_0406-1129
+[2025-03-23 15:43:36,126][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:36,577][t3sc.data.factories.icvl][INFO] - Saved normalized image 33/152 to /content/data/ICVL/clean/sat_0406-1129.pth
+[2025-03-23 15:43:36,577][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1622
+[2025-03-23 15:43:39,240][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:41,776][t3sc.data.factories.icvl][INFO] - Saved normalized image 34/152 to /content/data/ICVL/clean/Lehavim_0910-1622.pth
+[2025-03-23 15:43:41,776][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1136
+[2025-03-23 15:43:45,157][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:45,786][t3sc.data.factories.icvl][INFO] - Saved normalized image 35/152 to /content/data/ICVL/clean/BGU_0522-1136.pth
+[2025-03-23 15:43:45,802][t3sc.data.factories.icvl][INFO] - Preprocessing hill_0325-1219
+[2025-03-23 15:43:50,096][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1202) 
+[2025-03-23 15:43:50,509][t3sc.data.factories.icvl][INFO] - Saved normalized image 36/152 to /content/data/ICVL/clean/hill_0325-1219.pth
+[2025-03-23 15:43:50,510][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1217
+[2025-03-23 15:43:53,727][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:54,267][t3sc.data.factories.icvl][INFO] - Saved normalized image 37/152 to /content/data/ICVL/clean/BGU_0522-1217.pth
+[2025-03-23 15:43:54,267][t3sc.data.factories.icvl][INFO] - Preprocessing bguCAMP_0514-1723
+[2025-03-23 15:43:57,513][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:43:58,125][t3sc.data.factories.icvl][INFO] - Saved normalized image 38/152 to /content/data/ICVL/clean/bguCAMP_0514-1723.pth
+[2025-03-23 15:43:58,125][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1606
+[2025-03-23 15:44:01,584][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:02,091][t3sc.data.factories.icvl][INFO] - Saved normalized image 39/152 to /content/data/ICVL/clean/eve_0331-1606.pth
+[2025-03-23 15:44:02,091][t3sc.data.factories.icvl][INFO] - Preprocessing gavyam_0823-0930
+[2025-03-23 15:44:05,070][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:08,415][t3sc.data.factories.icvl][INFO] - Saved normalized image 40/152 to /content/data/ICVL/clean/gavyam_0823-0930.pth
+[2025-03-23 15:44:08,415][t3sc.data.factories.icvl][INFO] - Preprocessing ulm_0328-1118
+[2025-03-23 15:44:12,631][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1021) 
+[2025-03-23 15:44:13,134][t3sc.data.factories.icvl][INFO] - Saved normalized image 41/152 to /content/data/ICVL/clean/ulm_0328-1118.pth
+[2025-03-23 15:44:13,134][t3sc.data.factories.icvl][INFO] - Preprocessing lehavim_0910-1605
+[2025-03-23 15:44:15,975][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:19,262][t3sc.data.factories.icvl][INFO] - Saved normalized image 42/152 to /content/data/ICVL/clean/lehavim_0910-1605.pth
+[2025-03-23 15:44:19,262][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1210
+[2025-03-23 15:44:22,219][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:23,602][t3sc.data.factories.icvl][INFO] - Saved normalized image 43/152 to /content/data/ICVL/clean/plt_0411-1210.pth
+[2025-03-23 15:44:23,602][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1121
+[2025-03-23 15:44:27,410][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:28,053][t3sc.data.factories.icvl][INFO] - Saved normalized image 44/152 to /content/data/ICVL/clean/nachal_0823-1121.pth
+[2025-03-23 15:44:28,054][t3sc.data.factories.icvl][INFO] - Preprocessing Labtest_0910-1511
+[2025-03-23 15:44:30,888][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:31,495][t3sc.data.factories.icvl][INFO] - Saved normalized image 45/152 to /content/data/ICVL/clean/Labtest_0910-1511.pth
+[2025-03-23 15:44:31,495][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1602
+[2025-03-23 15:44:34,497][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:34,980][t3sc.data.factories.icvl][INFO] - Saved normalized image 46/152 to /content/data/ICVL/clean/eve_0331-1602.pth
+[2025-03-23 15:44:34,980][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1210-4
+[2025-03-23 15:44:38,772][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:39,637][t3sc.data.factories.icvl][INFO] - Saved normalized image 47/152 to /content/data/ICVL/clean/nachal_0823-1210-4.pth
+[2025-03-23 15:44:39,638][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1149
+[2025-03-23 15:44:42,847][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:44,520][t3sc.data.factories.icvl][INFO] - Saved normalized image 48/152 to /content/data/ICVL/clean/nachal_0823-1149.pth
+[2025-03-23 15:44:44,520][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1636
+[2025-03-23 15:44:47,311][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:47,774][t3sc.data.factories.icvl][INFO] - Saved normalized image 49/152 to /content/data/ICVL/clean/Lehavim_0910-1636.pth
+[2025-03-23 15:44:47,775][t3sc.data.factories.icvl][INFO] - Preprocessing CC_40D_2_1103-0917
+[2025-03-23 15:44:52,369][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1082) 
+[2025-03-23 15:44:52,910][t3sc.data.factories.icvl][INFO] - Saved normalized image 50/152 to /content/data/ICVL/clean/CC_40D_2_1103-0917.pth
+[2025-03-23 15:44:52,910][t3sc.data.factories.icvl][INFO] - Preprocessing Maz0326-1038
+[2025-03-23 15:44:55,919][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:44:56,713][t3sc.data.factories.icvl][INFO] - Saved normalized image 51/152 to /content/data/ICVL/clean/Maz0326-1038.pth
+[2025-03-23 15:44:56,713][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1116
+[2025-03-23 15:44:59,803][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:01,062][t3sc.data.factories.icvl][INFO] - Saved normalized image 52/152 to /content/data/ICVL/clean/plt_0411-1116.pth
+[2025-03-23 15:45:01,062][t3sc.data.factories.icvl][INFO] - Preprocessing prk_0328-0945
+[2025-03-23 15:45:04,877][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:07,795][t3sc.data.factories.icvl][INFO] - Saved normalized image 53/152 to /content/data/ICVL/clean/prk_0328-0945.pth
+[2025-03-23 15:45:07,795][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1118
+[2025-03-23 15:45:10,829][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:11,371][t3sc.data.factories.icvl][INFO] - Saved normalized image 54/152 to /content/data/ICVL/clean/nachal_0823-1118.pth
+[2025-03-23 15:45:11,372][t3sc.data.factories.icvl][INFO] - Preprocessing selfie_0822-0906
+[2025-03-23 15:45:14,377][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:14,900][t3sc.data.factories.icvl][INFO] - Saved normalized image 55/152 to /content/data/ICVL/clean/selfie_0822-0906.pth
+[2025-03-23 15:45:14,901][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1038
+[2025-03-23 15:45:18,814][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:19,484][t3sc.data.factories.icvl][INFO] - Saved normalized image 56/152 to /content/data/ICVL/clean/nachal_0823-1038.pth
+[2025-03-23 15:45:19,484][t3sc.data.factories.icvl][INFO] - Preprocessing Labtest_0910-1513
+[2025-03-23 15:45:22,377][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:24,088][t3sc.data.factories.icvl][INFO] - Saved normalized image 57/152 to /content/data/ICVL/clean/Labtest_0910-1513.pth
+[2025-03-23 15:45:24,088][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1630
+[2025-03-23 15:45:27,461][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:29,018][t3sc.data.factories.icvl][INFO] - Saved normalized image 58/152 to /content/data/ICVL/clean/Lehavim_0910-1630.pth
+[2025-03-23 15:45:29,018][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1055
+[2025-03-23 15:45:33,454][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:33,979][t3sc.data.factories.icvl][INFO] - Saved normalized image 59/152 to /content/data/ICVL/clean/omer_0331-1055.pth
+[2025-03-23 15:45:33,979][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1127
+[2025-03-23 15:45:37,128][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:40,633][t3sc.data.factories.icvl][INFO] - Saved normalized image 60/152 to /content/data/ICVL/clean/BGU_0522-1127.pth
+[2025-03-23 15:45:40,633][t3sc.data.factories.icvl][INFO] - Preprocessing sat_0406-1130
+[2025-03-23 15:45:43,961][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:51,728][t3sc.data.factories.icvl][INFO] - Saved normalized image 61/152 to /content/data/ICVL/clean/sat_0406-1130.pth
+[2025-03-23 15:45:51,728][t3sc.data.factories.icvl][INFO] - Preprocessing bgu_0403-1525
+[2025-03-23 15:45:54,907][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:45:56,943][t3sc.data.factories.icvl][INFO] - Saved normalized image 62/152 to /content/data/ICVL/clean/bgu_0403-1525.pth
+[2025-03-23 15:45:56,943][t3sc.data.factories.icvl][INFO] - Preprocessing Master5000K
+[2025-03-23 15:46:00,724][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1083) 
+[2025-03-23 15:46:01,330][t3sc.data.factories.icvl][INFO] - Saved normalized image 63/152 to /content/data/ICVL/clean/Master5000K.pth
+[2025-03-23 15:46:01,330][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1207
+[2025-03-23 15:46:04,328][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:46:11,289][t3sc.data.factories.icvl][INFO] - Saved normalized image 64/152 to /content/data/ICVL/clean/plt_0411-1207.pth
+[2025-03-23 15:46:11,289][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1135
+[2025-03-23 15:46:14,382][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:46:21,533][t3sc.data.factories.icvl][INFO] - Saved normalized image 65/152 to /content/data/ICVL/clean/omer_0331-1135.pth
+[2025-03-23 15:46:21,534][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1635
+[2025-03-23 15:46:24,560][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:46:31,828][t3sc.data.factories.icvl][INFO] - Saved normalized image 66/152 to /content/data/ICVL/clean/Lehavim_0910-1635.pth
+[2025-03-23 15:46:31,828][t3sc.data.factories.icvl][INFO] - Preprocessing bguCAMP_0514-1718
+[2025-03-23 15:46:35,793][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:46:46,519][t3sc.data.factories.icvl][INFO] - Saved normalized image 67/152 to /content/data/ICVL/clean/bguCAMP_0514-1718.pth
+[2025-03-23 15:46:46,519][t3sc.data.factories.icvl][INFO] - Preprocessing bgu_0403-1459
+[2025-03-23 15:46:50,549][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:46:59,758][t3sc.data.factories.icvl][INFO] - Saved normalized image 68/152 to /content/data/ICVL/clean/bgu_0403-1459.pth
+[2025-03-23 15:46:59,760][t3sc.data.factories.icvl][INFO] - Preprocessing Labtest_0910-1506
+[2025-03-23 15:47:03,661][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:47:22,096][t3sc.data.factories.icvl][INFO] - Saved normalized image 69/152 to /content/data/ICVL/clean/Labtest_0910-1506.pth
+[2025-03-23 15:47:22,098][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1211
+[2025-03-23 15:47:25,311][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:47:43,445][t3sc.data.factories.icvl][INFO] - Saved normalized image 70/152 to /content/data/ICVL/clean/plt_0411-1211.pth
+[2025-03-23 15:47:43,445][t3sc.data.factories.icvl][INFO] - Preprocessing Flower_0325-1336
+[2025-03-23 15:47:46,610][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:48:12,106][t3sc.data.factories.icvl][INFO] - Saved normalized image 71/152 to /content/data/ICVL/clean/Flower_0325-1336.pth
+[2025-03-23 15:48:12,106][t3sc.data.factories.icvl][INFO] - Preprocessing lst_0408-0950
+[2025-03-23 15:48:15,615][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:48:42,827][t3sc.data.factories.icvl][INFO] - Saved normalized image 72/152 to /content/data/ICVL/clean/lst_0408-0950.pth
+[2025-03-23 15:48:42,827][t3sc.data.factories.icvl][INFO] - Preprocessing Ramot0325-1364
+[2025-03-23 15:48:46,233][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:48:46,744][t3sc.data.factories.icvl][INFO] - Saved normalized image 73/152 to /content/data/ICVL/clean/Ramot0325-1364.pth
+[2025-03-23 15:48:46,745][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1618
+[2025-03-23 15:48:49,461][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:48:49,976][t3sc.data.factories.icvl][INFO] - Saved normalized image 74/152 to /content/data/ICVL/clean/eve_0331-1618.pth
+[2025-03-23 15:48:49,976][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0403-1419-1
+[2025-03-23 15:48:53,698][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:48:54,476][t3sc.data.factories.icvl][INFO] - Saved normalized image 75/152 to /content/data/ICVL/clean/BGU_0403-1419-1.pth
+[2025-03-23 15:48:54,476][t3sc.data.factories.icvl][INFO] - Preprocessing lst_0408-1004
+[2025-03-23 15:48:57,071][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:48:59,032][t3sc.data.factories.icvl][INFO] - Saved normalized image 76/152 to /content/data/ICVL/clean/lst_0408-1004.pth
+[2025-03-23 15:48:59,032][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1117
+[2025-03-23 15:49:01,961][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:02,466][t3sc.data.factories.icvl][INFO] - Saved normalized image 77/152 to /content/data/ICVL/clean/nachal_0823-1117.pth
+[2025-03-23 15:49:02,466][t3sc.data.factories.icvl][INFO] - Preprocessing rsh_0406-1427
+[2025-03-23 15:49:05,789][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:06,441][t3sc.data.factories.icvl][INFO] - Saved normalized image 78/152 to /content/data/ICVL/clean/rsh_0406-1427.pth
+[2025-03-23 15:49:06,441][t3sc.data.factories.icvl][INFO] - Preprocessing bgu_0403-1511
+[2025-03-23 15:49:09,615][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:13,549][t3sc.data.factories.icvl][INFO] - Saved normalized image 79/152 to /content/data/ICVL/clean/bgu_0403-1511.pth
+[2025-03-23 15:49:13,549][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1131
+[2025-03-23 15:49:16,296][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:16,728][t3sc.data.factories.icvl][INFO] - Saved normalized image 80/152 to /content/data/ICVL/clean/omer_0331-1131.pth
+[2025-03-23 15:49:16,729][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1113-1
+[2025-03-23 15:49:20,480][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:21,466][t3sc.data.factories.icvl][INFO] - Saved normalized image 81/152 to /content/data/ICVL/clean/BGU_0522-1113-1.pth
+[2025-03-23 15:49:21,466][t3sc.data.factories.icvl][INFO] - Preprocessing bgu_0403-1439
+[2025-03-23 15:49:24,280][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:24,724][t3sc.data.factories.icvl][INFO] - Saved normalized image 82/152 to /content/data/ICVL/clean/bgu_0403-1439.pth
+[2025-03-23 15:49:24,724][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1214
+[2025-03-23 15:49:28,294][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:28,812][t3sc.data.factories.icvl][INFO] - Saved normalized image 83/152 to /content/data/ICVL/clean/nachal_0823-1214.pth
+[2025-03-23 15:49:28,812][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1104
+[2025-03-23 15:49:32,288][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:33,408][t3sc.data.factories.icvl][INFO] - Saved normalized image 84/152 to /content/data/ICVL/clean/omer_0331-1104.pth
+[2025-03-23 15:49:33,409][t3sc.data.factories.icvl][INFO] - Preprocessing Labtest_0910-1509
+[2025-03-23 15:49:36,339][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:36,761][t3sc.data.factories.icvl][INFO] - Saved normalized image 85/152 to /content/data/ICVL/clean/Labtest_0910-1509.pth
+[2025-03-23 15:49:36,761][t3sc.data.factories.icvl][INFO] - Preprocessing prk_0328-1034
+[2025-03-23 15:49:39,767][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:40,196][t3sc.data.factories.icvl][INFO] - Saved normalized image 86/152 to /content/data/ICVL/clean/prk_0328-1034.pth
+[2025-03-23 15:49:40,197][t3sc.data.factories.icvl][INFO] - Preprocessing rmt_0328-1249-1
+[2025-03-23 15:49:43,898][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1018) 
+[2025-03-23 15:49:44,399][t3sc.data.factories.icvl][INFO] - Saved normalized image 87/152 to /content/data/ICVL/clean/rmt_0328-1249-1.pth
+[2025-03-23 15:49:44,399][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1118
+[2025-03-23 15:49:48,268][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:48,700][t3sc.data.factories.icvl][INFO] - Saved normalized image 88/152 to /content/data/ICVL/clean/omer_0331-1118.pth
+[2025-03-23 15:49:48,700][t3sc.data.factories.icvl][INFO] - Preprocessing bgu_0403-1523
+[2025-03-23 15:49:51,811][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:54,537][t3sc.data.factories.icvl][INFO] - Saved normalized image 89/152 to /content/data/ICVL/clean/bgu_0403-1523.pth
+[2025-03-23 15:49:54,537][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1201
+[2025-03-23 15:49:57,722][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:49:58,412][t3sc.data.factories.icvl][INFO] - Saved normalized image 90/152 to /content/data/ICVL/clean/BGU_0522-1201.pth
+[2025-03-23 15:49:58,413][t3sc.data.factories.icvl][INFO] - Preprocessing BGU_0522-1216
+[2025-03-23 15:50:01,949][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:02,411][t3sc.data.factories.icvl][INFO] - Saved normalized image 91/152 to /content/data/ICVL/clean/BGU_0522-1216.pth
+[2025-03-23 15:50:02,412][t3sc.data.factories.icvl][INFO] - Preprocessing maz_0326-1048
+[2025-03-23 15:50:05,427][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:10,901][t3sc.data.factories.icvl][INFO] - Saved normalized image 92/152 to /content/data/ICVL/clean/maz_0326-1048.pth
+[2025-03-23 15:50:10,901][t3sc.data.factories.icvl][INFO] - Preprocessing rsh_0406-1443
+[2025-03-23 15:50:14,556][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:21,141][t3sc.data.factories.icvl][INFO] - Saved normalized image 93/152 to /content/data/ICVL/clean/rsh_0406-1443.pth
+[2025-03-23 15:50:21,142][t3sc.data.factories.icvl][INFO] - Preprocessing 4cam_0411-1640-1
+[2025-03-23 15:50:24,340][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:26,730][t3sc.data.factories.icvl][INFO] - Saved normalized image 94/152 to /content/data/ICVL/clean/4cam_0411-1640-1.pth
+[2025-03-23 15:50:26,730][t3sc.data.factories.icvl][INFO] - Preprocessing 4cam_0411-1648
+[2025-03-23 15:50:29,706][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:33,451][t3sc.data.factories.icvl][INFO] - Saved normalized image 95/152 to /content/data/ICVL/clean/4cam_0411-1648.pth
+[2025-03-23 15:50:33,451][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1716
+[2025-03-23 15:50:36,570][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:37,411][t3sc.data.factories.icvl][INFO] - Saved normalized image 96/152 to /content/data/ICVL/clean/Lehavim_0910-1716.pth
+[2025-03-23 15:50:37,412][t3sc.data.factories.icvl][INFO] - Preprocessing bguCAMP_0514-1659
+[2025-03-23 15:50:40,995][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:43,731][t3sc.data.factories.icvl][INFO] - Saved normalized image 97/152 to /content/data/ICVL/clean/bguCAMP_0514-1659.pth
+[2025-03-23 15:50:43,766][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1232-1
+[2025-03-23 15:50:46,888][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:47,567][t3sc.data.factories.icvl][INFO] - Saved normalized image 98/152 to /content/data/ICVL/clean/plt_0411-1232-1.pth
+[2025-03-23 15:50:47,567][t3sc.data.factories.icvl][INFO] - Preprocessing omer_0331-1159
+[2025-03-23 15:50:51,083][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:54,142][t3sc.data.factories.icvl][INFO] - Saved normalized image 99/152 to /content/data/ICVL/clean/omer_0331-1159.pth
+[2025-03-23 15:50:54,142][t3sc.data.factories.icvl][INFO] - Preprocessing bgu_0403-1444
+[2025-03-23 15:50:57,142][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:50:57,912][t3sc.data.factories.icvl][INFO] - Saved normalized image 100/152 to /content/data/ICVL/clean/bgu_0403-1444.pth
+[2025-03-23 15:50:57,912][t3sc.data.factories.icvl][INFO] - Preprocessing gavyam_0823-0950-1
+[2025-03-23 15:51:00,997][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:02,380][t3sc.data.factories.icvl][INFO] - Saved normalized image 101/152 to /content/data/ICVL/clean/gavyam_0823-0950-1.pth
+[2025-03-23 15:51:02,380][t3sc.data.factories.icvl][INFO] - Preprocessing bulb_0822-0909
+[2025-03-23 15:51:06,298][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:06,919][t3sc.data.factories.icvl][INFO] - Saved normalized image 102/152 to /content/data/ICVL/clean/bulb_0822-0909.pth
+[2025-03-23 15:51:06,919][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1646
+[2025-03-23 15:51:09,935][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:10,441][t3sc.data.factories.icvl][INFO] - Saved normalized image 103/152 to /content/data/ICVL/clean/eve_0331-1646.pth
+[2025-03-23 15:51:10,441][t3sc.data.factories.icvl][INFO] - Preprocessing prk_0328-1037
+[2025-03-23 15:51:13,442][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:17,046][t3sc.data.factories.icvl][INFO] - Saved normalized image 104/152 to /content/data/ICVL/clean/prk_0328-1037.pth
+[2025-03-23 15:51:17,048][t3sc.data.factories.icvl][INFO] - Preprocessing bguCAMP_0514-1724
+[2025-03-23 15:51:20,104][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:21,134][t3sc.data.factories.icvl][INFO] - Saved normalized image 105/152 to /content/data/ICVL/clean/bguCAMP_0514-1724.pth
+[2025-03-23 15:51:21,134][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1657
+[2025-03-23 15:51:24,157][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:26,046][t3sc.data.factories.icvl][INFO] - Saved normalized image 106/152 to /content/data/ICVL/clean/eve_0331-1657.pth
+[2025-03-23 15:51:26,046][t3sc.data.factories.icvl][INFO] - Preprocessing gavyam_0823-0944
+[2025-03-23 15:51:29,604][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:30,574][t3sc.data.factories.icvl][INFO] - Saved normalized image 107/152 to /content/data/ICVL/clean/gavyam_0823-0944.pth
+[2025-03-23 15:51:30,574][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1717
+[2025-03-23 15:51:33,701][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:40,833][t3sc.data.factories.icvl][INFO] - Saved normalized image 108/152 to /content/data/ICVL/clean/Lehavim_0910-1717.pth
+[2025-03-23 15:51:40,835][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1127
+[2025-03-23 15:51:44,960][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:51:51,660][t3sc.data.factories.icvl][INFO] - Saved normalized image 109/152 to /content/data/ICVL/clean/nachal_0823-1127.pth
+[2025-03-23 15:51:51,661][t3sc.data.factories.icvl][INFO] - Preprocessing prk_0328-1031
+[2025-03-23 15:51:54,679][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:52:00,002][t3sc.data.factories.icvl][INFO] - Saved normalized image 110/152 to /content/data/ICVL/clean/prk_0328-1031.pth
+[2025-03-23 15:52:00,004][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1147
+[2025-03-23 15:52:03,158][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:52:13,871][t3sc.data.factories.icvl][INFO] - Saved normalized image 111/152 to /content/data/ICVL/clean/nachal_0823-1147.pth
+[2025-03-23 15:52:13,872][t3sc.data.factories.icvl][INFO] - Preprocessing rsh_0406-1413
+[2025-03-23 15:52:16,983][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:52:32,219][t3sc.data.factories.icvl][INFO] - Saved normalized image 112/152 to /content/data/ICVL/clean/rsh_0406-1413.pth
+[2025-03-23 15:52:32,219][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1040
+[2025-03-23 15:52:35,758][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:52:49,139][t3sc.data.factories.icvl][INFO] - Saved normalized image 113/152 to /content/data/ICVL/clean/nachal_0823-1040.pth
+[2025-03-23 15:52:49,141][t3sc.data.factories.icvl][INFO] - Preprocessing strt_0331-1027
+[2025-03-23 15:52:52,154][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:53:09,309][t3sc.data.factories.icvl][INFO] - Saved normalized image 114/152 to /content/data/ICVL/clean/strt_0331-1027.pth
+[2025-03-23 15:53:09,309][t3sc.data.factories.icvl][INFO] - Preprocessing rsh2_0406-1505
+[2025-03-23 15:53:12,493][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:53:34,721][t3sc.data.factories.icvl][INFO] - Saved normalized image 115/152 to /content/data/ICVL/clean/rsh2_0406-1505.pth
+[2025-03-23 15:53:34,722][t3sc.data.factories.icvl][INFO] - Preprocessing grf_0328-0949
+[2025-03-23 15:53:37,852][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:03,083][t3sc.data.factories.icvl][INFO] - Saved normalized image 116/152 to /content/data/ICVL/clean/grf_0328-0949.pth
+[2025-03-23 15:54:03,084][t3sc.data.factories.icvl][INFO] - Preprocessing prk_0328-1025
+[2025-03-23 15:54:06,178][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:08,029][t3sc.data.factories.icvl][INFO] - Saved normalized image 117/152 to /content/data/ICVL/clean/prk_0328-1025.pth
+[2025-03-23 15:54:08,029][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1132
+[2025-03-23 15:54:11,855][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:12,432][t3sc.data.factories.icvl][INFO] - Saved normalized image 118/152 to /content/data/ICVL/clean/nachal_0823-1132.pth
+[2025-03-23 15:54:12,433][t3sc.data.factories.icvl][INFO] - Preprocessing negev_0823-1003
+[2025-03-23 15:54:15,375][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:15,929][t3sc.data.factories.icvl][INFO] - Saved normalized image 119/152 to /content/data/ICVL/clean/negev_0823-1003.pth
+[2025-03-23 15:54:15,930][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1213
+[2025-03-23 15:54:18,756][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:20,567][t3sc.data.factories.icvl][INFO] - Saved normalized image 120/152 to /content/data/ICVL/clean/nachal_0823-1213.pth
+[2025-03-23 15:54:20,568][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1220
+[2025-03-23 15:54:24,008][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:24,607][t3sc.data.factories.icvl][INFO] - Saved normalized image 121/152 to /content/data/ICVL/clean/nachal_0823-1220.pth
+[2025-03-23 15:54:24,613][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1110
+[2025-03-23 15:54:27,649][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:28,095][t3sc.data.factories.icvl][INFO] - Saved normalized image 122/152 to /content/data/ICVL/clean/nachal_0823-1110.pth
+[2025-03-23 15:54:28,096][t3sc.data.factories.icvl][INFO] - Preprocessing lehavim_0910-1610
+[2025-03-23 15:54:30,811][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:31,670][t3sc.data.factories.icvl][INFO] - Saved normalized image 123/152 to /content/data/ICVL/clean/lehavim_0910-1610.pth
+[2025-03-23 15:54:31,671][t3sc.data.factories.icvl][INFO] - Preprocessing bguCAMP_0514-1712
+[2025-03-23 15:54:34,672][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:35,101][t3sc.data.factories.icvl][INFO] - Saved normalized image 124/152 to /content/data/ICVL/clean/bguCAMP_0514-1712.pth
+[2025-03-23 15:54:35,102][t3sc.data.factories.icvl][INFO] - Preprocessing gavyam_0823-0945
+[2025-03-23 15:54:38,854][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:39,711][t3sc.data.factories.icvl][INFO] - Saved normalized image 125/152 to /content/data/ICVL/clean/gavyam_0823-0945.pth
+[2025-03-23 15:54:39,714][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1145
+[2025-03-23 15:54:42,839][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:43,299][t3sc.data.factories.icvl][INFO] - Saved normalized image 126/152 to /content/data/ICVL/clean/nachal_0823-1145.pth
+[2025-03-23 15:54:43,299][t3sc.data.factories.icvl][INFO] - Preprocessing ramot_0325-1322
+[2025-03-23 15:54:46,078][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:46,518][t3sc.data.factories.icvl][INFO] - Saved normalized image 127/152 to /content/data/ICVL/clean/ramot_0325-1322.pth
+[2025-03-23 15:54:46,518][t3sc.data.factories.icvl][INFO] - Preprocessing rsh_0406-1441-1
+[2025-03-23 15:54:49,761][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:51,127][t3sc.data.factories.icvl][INFO] - Saved normalized image 128/152 to /content/data/ICVL/clean/rsh_0406-1441-1.pth
+[2025-03-23 15:54:51,127][t3sc.data.factories.icvl][INFO] - Preprocessing tree_0822-0853
+[2025-03-23 15:54:55,474][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1084) 
+[2025-03-23 15:54:55,836][t3sc.data.factories.icvl][INFO] - Saved normalized image 129/152 to /content/data/ICVL/clean/tree_0822-0853.pth
+[2025-03-23 15:54:55,836][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1708
+[2025-03-23 15:54:58,834][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:54:59,292][t3sc.data.factories.icvl][INFO] - Saved normalized image 130/152 to /content/data/ICVL/clean/Lehavim_0910-1708.pth
+[2025-03-23 15:54:59,292][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1627
+[2025-03-23 15:55:02,390][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:03,060][t3sc.data.factories.icvl][INFO] - Saved normalized image 131/152 to /content/data/ICVL/clean/Lehavim_0910-1627.pth
+[2025-03-23 15:55:03,060][t3sc.data.factories.icvl][INFO] - Preprocessing plt_0411-1155
+[2025-03-23 15:55:06,728][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:07,174][t3sc.data.factories.icvl][INFO] - Saved normalized image 132/152 to /content/data/ICVL/clean/plt_0411-1155.pth
+[2025-03-23 15:55:07,174][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1656
+[2025-03-23 15:55:10,125][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:10,573][t3sc.data.factories.icvl][INFO] - Saved normalized image 133/152 to /content/data/ICVL/clean/eve_0331-1656.pth
+[2025-03-23 15:55:10,573][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1217
+[2025-03-23 15:55:13,861][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:14,373][t3sc.data.factories.icvl][INFO] - Saved normalized image 134/152 to /content/data/ICVL/clean/nachal_0823-1217.pth
+[2025-03-23 15:55:14,374][t3sc.data.factories.icvl][INFO] - Preprocessing IDS_COLORCHECK_1020-1223
+[2025-03-23 15:55:18,676][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1083) 
+[2025-03-23 15:55:19,034][t3sc.data.factories.icvl][INFO] - Saved normalized image 135/152 to /content/data/ICVL/clean/IDS_COLORCHECK_1020-1223.pth
+[2025-03-23 15:55:19,034][t3sc.data.factories.icvl][INFO] - Preprocessing rmt_0328-1241-1
+[2025-03-23 15:55:22,677][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1023) 
+[2025-03-23 15:55:23,042][t3sc.data.factories.icvl][INFO] - Saved normalized image 136/152 to /content/data/ICVL/clean/rmt_0328-1241-1.pth
+[2025-03-23 15:55:23,042][t3sc.data.factories.icvl][INFO] - Preprocessing bulb_0822-0903
+[2025-03-23 15:55:26,936][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1083) 
+[2025-03-23 15:55:27,318][t3sc.data.factories.icvl][INFO] - Saved normalized image 137/152 to /content/data/ICVL/clean/bulb_0822-0903.pth
+[2025-03-23 15:55:27,318][t3sc.data.factories.icvl][INFO] - Preprocessing Lehavim_0910-1629
+[2025-03-23 15:55:31,306][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:31,774][t3sc.data.factories.icvl][INFO] - Saved normalized image 138/152 to /content/data/ICVL/clean/Lehavim_0910-1629.pth
+[2025-03-23 15:55:31,774][t3sc.data.factories.icvl][INFO] - Preprocessing Labtest_0910-1510
+[2025-03-23 15:55:34,745][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:36,377][t3sc.data.factories.icvl][INFO] - Saved normalized image 139/152 to /content/data/ICVL/clean/Labtest_0910-1510.pth
+[2025-03-23 15:55:36,378][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1551
+[2025-03-23 15:55:39,519][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:39,980][t3sc.data.factories.icvl][INFO] - Saved normalized image 140/152 to /content/data/ICVL/clean/eve_0331-1551.pth
+[2025-03-23 15:55:39,981][t3sc.data.factories.icvl][INFO] - Preprocessing hill_0325-1235
+[2025-03-23 15:55:44,919][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1194) 
+[2025-03-23 15:55:45,334][t3sc.data.factories.icvl][INFO] - Saved normalized image 141/152 to /content/data/ICVL/clean/hill_0325-1235.pth
+[2025-03-23 15:55:45,334][t3sc.data.factories.icvl][INFO] - Preprocessing prk_0328-1045
+[2025-03-23 15:55:48,464][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:55:54,955][t3sc.data.factories.icvl][INFO] - Saved normalized image 142/152 to /content/data/ICVL/clean/prk_0328-1045.pth
+[2025-03-23 15:55:54,956][t3sc.data.factories.icvl][INFO] - Preprocessing hill_0325-1242
+[2025-03-23 15:55:59,464][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1191) 
+[2025-03-23 15:56:00,068][t3sc.data.factories.icvl][INFO] - Saved normalized image 143/152 to /content/data/ICVL/clean/hill_0325-1242.pth
+[2025-03-23 15:56:00,068][t3sc.data.factories.icvl][INFO] - Preprocessing negev_0823-1005
+[2025-03-23 15:56:03,190][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:56:04,681][t3sc.data.factories.icvl][INFO] - Saved normalized image 144/152 to /content/data/ICVL/clean/negev_0823-1005.pth
+[2025-03-23 15:56:04,681][t3sc.data.factories.icvl][INFO] - Preprocessing rsh_0406-1343
+[2025-03-23 15:56:08,350][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:56:08,992][t3sc.data.factories.icvl][INFO] - Saved normalized image 145/152 to /content/data/ICVL/clean/rsh_0406-1343.pth
+[2025-03-23 15:56:08,992][t3sc.data.factories.icvl][INFO] - Preprocessing objects_0924-1636
+[2025-03-23 15:56:12,153][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:56:17,652][t3sc.data.factories.icvl][INFO] - Saved normalized image 146/152 to /content/data/ICVL/clean/objects_0924-1636.pth
+[2025-03-23 15:56:17,652][t3sc.data.factories.icvl][INFO] - Preprocessing mor_0328-1209-2
+[2025-03-23 15:56:22,056][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1027) 
+[2025-03-23 15:56:23,246][t3sc.data.factories.icvl][INFO] - Saved normalized image 147/152 to /content/data/ICVL/clean/mor_0328-1209-2.pth
+[2025-03-23 15:56:23,246][t3sc.data.factories.icvl][INFO] - Preprocessing lst_0408-1012
+[2025-03-23 15:56:26,282][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:56:32,481][t3sc.data.factories.icvl][INFO] - Saved normalized image 148/152 to /content/data/ICVL/clean/lst_0408-1012.pth
+[2025-03-23 15:56:32,481][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1223
+[2025-03-23 15:56:36,561][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:56:37,325][t3sc.data.factories.icvl][INFO] - Saved normalized image 149/152 to /content/data/ICVL/clean/nachal_0823-1223.pth
+[2025-03-23 15:56:37,325][t3sc.data.factories.icvl][INFO] - Preprocessing gavyam_0823-0933
+[2025-03-23 15:56:40,404][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:56:41,215][t3sc.data.factories.icvl][INFO] - Saved normalized image 150/152 to /content/data/ICVL/clean/gavyam_0823-0933.pth
+[2025-03-23 15:56:41,216][t3sc.data.factories.icvl][INFO] - Preprocessing eve_0331-1601
+[2025-03-23 15:56:44,563][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:56:51,007][t3sc.data.factories.icvl][INFO] - Saved normalized image 151/152 to /content/data/ICVL/clean/eve_0331-1601.pth
+[2025-03-23 15:56:51,007][t3sc.data.factories.icvl][INFO] - Preprocessing nachal_0823-1047
+[2025-03-23 15:56:54,118][t3sc.data.factories.icvl][INFO] - shape : (31, 1392, 1300) 
+[2025-03-23 15:57:00,561][t3sc.data.factories.icvl][INFO] - Saved normalized image 152/152 to /content/data/ICVL/clean/nachal_0823-1047.pth
+[2025-03-23 15:57:00,561][t3sc.data.factories.icvl][INFO] - Dataset preprocessed
+[2025-03-23 15:57:00,638][t3sc.models.multilayer][DEBUG] - ssl : 0, n_ssl : 4
+[2025-03-23 15:57:00,638][t3sc.models.multilayer][DEBUG] - Initializing layer 0
+[2025-03-23 15:57:01,913][t3sc.models.multilayer][DEBUG] - Initializing layer 1
+[2025-03-23 15:57:01,921][t3sc.models.multilayer][INFO] - Using SSL : 0
+[2025-03-23 15:57:01,921][t3sc.models.multilayer][INFO] - Loading ckpt '/content/drive/MyDrive/T3SC-main/icvl_constant_5.ckpt'
+[2025-03-23 15:57:03,446][t3sc.models.base][INFO] - Model parameters:
+	layers.0.C.0 : 1984
+	layers.0.C.1 : 64
+	layers.0.D.0 : 1984
+	layers.0.D.1 : 64
+	layers.0.W.0 : 1984
+	layers.0.W.1 : 64
+	layers.0.thresholds.lbda.0 : 64
+	layers.0.thresholds.lbda.1 : 64
+	layers.0.thresholds.lbda.2 : 64
+	layers.0.thresholds.lbda.3 : 64
+	layers.0.thresholds.lbda.4 : 64
+	layers.0.thresholds.lbda.5 : 64
+	layers.0.thresholds.lbda.6 : 64
+	layers.0.thresholds.lbda.7 : 64
+	layers.0.thresholds.lbda.8 : 64
+	layers.0.thresholds.lbda.9 : 64
+	layers.0.thresholds.lbda.10 : 64
+	layers.0.thresholds.lbda.11 : 64
+	layers.1.C.0 : 196608
+	layers.1.C.1 : 76800
+	layers.1.D.0 : 196608
+	layers.1.D.1 : 76800
+	layers.1.W.0 : 196608
+	layers.1.W.1 : 76800
+	layers.1.thresholds.lbda.0 : 1024
+	layers.1.thresholds.lbda.1 : 1024
+	layers.1.thresholds.lbda.2 : 1024
+	layers.1.thresholds.lbda.3 : 1024
+	layers.1.thresholds.lbda.4 : 1024
+Total number of learnable parameters : 832256
+
+[2025-03-23 15:57:03,446][t3sc.utils.tester][DEBUG] - Extracting datamodule info..
+[2025-03-23 15:57:03,447][t3sc.utils.tester][DEBUG] - Iterating on batches
+[2025-03-23 15:57:03,447][t3sc.data.factories.icvl][INFO] - Dataset downloaded
+[2025-03-23 15:57:18,016][t3sc.utils.tester][INFO] - Image ID 1/50: 4cam_0411-1648
+[2025-03-23 15:57:18,017][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 15:57:18,017][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 15:57:18,083][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 15:57:19,782][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 15:57:20,354][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 15:57:45,482][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 15:57:48,956][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 15:57:48,959][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 15:57:48,959][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 15:57:49,024][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 15:57:49,112][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 15:57:49,953][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 15:58:03,740][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 15:58:14,305][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 15:58:15,187][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 15:58:15,978][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 15:58:16,669][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 15:58:16,713][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7740, out=0.9923
+[2025-03-23 15:58:16,713][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2360, out=49.1756
+[2025-03-23 15:58:16,713][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9967, out=0.9996
+[2025-03-23 15:58:16,713][t3sc.utils.tester][INFO] - 	PSNR : in=34.2336, out=48.8338
+[2025-03-23 15:58:16,713][t3sc.utils.tester][INFO] - 	MSAM : in=0.1370, out=0.0193
+[2025-03-23 15:58:16,713][t3sc.utils.tester][INFO] - 	MERGAS : in=4.5621, out=0.7586
+[2025-03-23 15:58:16,713][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 15:58:16,713][t3sc.utils.tester][DEBUG] - No crop found for 4cam_0411-1648, not saving to RGB
+[2025-03-23 15:58:16,714][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 15:58:16,994][t3sc.utils.tester][INFO] - Image ID 2/50: BGU_0403-1419-1
+[2025-03-23 15:58:16,995][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 15:58:16,995][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 15:58:16,995][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 15:58:16,996][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 15:58:16,996][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 15:58:39,144][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 15:58:39,145][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 15:58:39,145][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 15:58:39,145][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 15:58:42,786][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 15:58:42,797][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 15:58:43,619][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 15:58:57,333][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 15:59:06,625][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 15:59:07,489][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 15:59:08,271][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 15:59:08,959][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 15:59:09,005][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7891, out=0.9957
+[2025-03-23 15:59:09,006][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3467, out=51.3532
+[2025-03-23 15:59:09,006][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9971, out=0.9997
+[2025-03-23 15:59:09,006][t3sc.utils.tester][INFO] - 	PSNR : in=34.3368, out=50.8940
+[2025-03-23 15:59:09,006][t3sc.utils.tester][INFO] - 	MSAM : in=0.1888, out=0.0190
+[2025-03-23 15:59:09,006][t3sc.utils.tester][INFO] - 	MERGAS : in=5.7303, out=0.7425
+[2025-03-23 15:59:09,006][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 15:59:09,006][t3sc.utils.tester][DEBUG] - No crop found for BGU_0403-1419-1, not saving to RGB
+[2025-03-23 15:59:09,006][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 15:59:09,265][t3sc.utils.tester][INFO] - Image ID 3/50: BGU_0522-1113-1
+[2025-03-23 15:59:09,266][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 15:59:09,266][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 15:59:09,266][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 15:59:09,267][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 15:59:09,267][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 15:59:31,858][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 15:59:31,858][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 15:59:31,859][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 15:59:31,859][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 15:59:35,592][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 15:59:35,603][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 15:59:36,435][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 15:59:50,793][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 15:59:59,912][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:00:00,787][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:00:01,561][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:00:02,280][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:00:02,331][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7628, out=0.9960
+[2025-03-23 16:00:02,331][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2439, out=51.5462
+[2025-03-23 16:00:02,331][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9960, out=0.9997
+[2025-03-23 16:00:02,331][t3sc.utils.tester][INFO] - 	PSNR : in=34.2396, out=51.2448
+[2025-03-23 16:00:02,331][t3sc.utils.tester][INFO] - 	MSAM : in=0.1366, out=0.0151
+[2025-03-23 16:00:02,331][t3sc.utils.tester][INFO] - 	MERGAS : in=4.7117, out=0.6283
+[2025-03-23 16:00:02,331][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:00:02,331][t3sc.utils.tester][DEBUG] - No crop found for BGU_0522-1113-1, not saving to RGB
+[2025-03-23 16:00:02,331][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:00:02,598][t3sc.utils.tester][INFO] - Image ID 4/50: Labtest_0910-1502
+[2025-03-23 16:00:02,599][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:00:02,599][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:00:02,599][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:00:02,600][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:00:02,600][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:00:25,766][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:00:25,766][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:00:25,766][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:00:25,766][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:00:29,616][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:00:29,627][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:00:30,447][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:00:44,744][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:00:53,884][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:00:54,752][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:00:55,480][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:00:56,200][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:00:56,250][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7662, out=0.9965
+[2025-03-23 16:00:56,251][t3sc.utils.tester][INFO] - 	MPSNR : in=34.8021, out=53.6855
+[2025-03-23 16:00:56,251][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9960, out=0.9997
+[2025-03-23 16:00:56,251][t3sc.utils.tester][INFO] - 	PSNR : in=34.7845, out=53.2078
+[2025-03-23 16:00:56,251][t3sc.utils.tester][INFO] - 	MSAM : in=0.4061, out=0.0382
+[2025-03-23 16:00:56,251][t3sc.utils.tester][INFO] - 	MERGAS : in=7.5011, out=0.8138
+[2025-03-23 16:00:56,251][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:00:56,251][t3sc.utils.tester][DEBUG] - No crop found for Labtest_0910-1502, not saving to RGB
+[2025-03-23 16:00:56,251][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:00:56,519][t3sc.utils.tester][INFO] - Image ID 5/50: Labtest_0910-1504
+[2025-03-23 16:00:56,519][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:00:56,519][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:00:56,520][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:00:56,520][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:00:56,520][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:01:20,340][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:01:20,340][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:01:20,341][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:01:20,341][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:01:24,281][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:01:24,292][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:01:25,120][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:01:39,487][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:01:48,533][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:01:49,393][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:01:50,175][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:01:50,865][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:01:50,912][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7498, out=0.9974
+[2025-03-23 16:01:50,912][t3sc.utils.tester][INFO] - 	MPSNR : in=35.2248, out=56.4728
+[2025-03-23 16:01:50,912][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9949, out=0.9997
+[2025-03-23 16:01:50,912][t3sc.utils.tester][INFO] - 	PSNR : in=35.2085, out=55.9417
+[2025-03-23 16:01:50,913][t3sc.utils.tester][INFO] - 	MSAM : in=0.5287, out=0.0438
+[2025-03-23 16:01:50,913][t3sc.utils.tester][INFO] - 	MERGAS : in=8.7655, out=0.7263
+[2025-03-23 16:01:50,913][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:01:50,913][t3sc.utils.tester][DEBUG] - No crop found for Labtest_0910-1504, not saving to RGB
+[2025-03-23 16:01:50,913][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:01:51,197][t3sc.utils.tester][INFO] - Image ID 6/50: Labtest_0910-1506
+[2025-03-23 16:01:51,198][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:01:51,198][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:01:51,198][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:01:51,199][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:01:51,199][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:02:15,530][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:02:15,531][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:02:15,531][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:02:15,531][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:02:19,621][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:02:19,632][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:02:20,738][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:02:35,336][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:02:43,486][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:02:44,396][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:02:45,143][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:02:45,822][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:02:45,879][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7537, out=0.9972
+[2025-03-23 16:02:45,879][t3sc.utils.tester][INFO] - 	MPSNR : in=35.6926, out=57.1963
+[2025-03-23 16:02:45,879][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9949, out=0.9996
+[2025-03-23 16:02:45,879][t3sc.utils.tester][INFO] - 	PSNR : in=35.6833, out=56.7025
+[2025-03-23 16:02:45,879][t3sc.utils.tester][INFO] - 	MSAM : in=0.6479, out=0.0636
+[2025-03-23 16:02:45,879][t3sc.utils.tester][INFO] - 	MERGAS : in=9.5158, out=0.7842
+[2025-03-23 16:02:45,879][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:02:45,880][t3sc.utils.tester][DEBUG] - No crop found for Labtest_0910-1506, not saving to RGB
+[2025-03-23 16:02:45,880][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:02:46,263][t3sc.utils.tester][INFO] - Image ID 7/50: Labtest_0910-1510
+[2025-03-23 16:02:46,264][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:02:46,264][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:02:46,264][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:02:46,267][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:02:46,267][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:03:11,069][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:03:11,069][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:03:11,070][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:03:11,070][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:03:15,210][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:03:15,221][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:03:16,131][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:03:30,314][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:03:38,110][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:03:39,074][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:03:40,013][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:03:40,849][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:03:40,934][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7552, out=0.9972
+[2025-03-23 16:03:40,935][t3sc.utils.tester][INFO] - 	MPSNR : in=34.9933, out=55.5765
+[2025-03-23 16:03:40,935][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9952, out=0.9997
+[2025-03-23 16:03:40,935][t3sc.utils.tester][INFO] - 	PSNR : in=34.9628, out=54.9435
+[2025-03-23 16:03:40,935][t3sc.utils.tester][INFO] - 	MSAM : in=0.4752, out=0.0354
+[2025-03-23 16:03:40,935][t3sc.utils.tester][INFO] - 	MERGAS : in=9.4905, out=0.8284
+[2025-03-23 16:03:40,935][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:03:40,935][t3sc.utils.tester][DEBUG] - No crop found for Labtest_0910-1510, not saving to RGB
+[2025-03-23 16:03:40,935][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:03:41,319][t3sc.utils.tester][INFO] - Image ID 8/50: Labtest_0910-1511
+[2025-03-23 16:03:41,320][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:03:41,320][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:03:41,320][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:03:41,321][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:03:41,322][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:04:06,681][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:04:06,682][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:04:06,682][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:04:06,682][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:04:10,960][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:04:10,971][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:04:11,803][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:04:25,703][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:04:34,627][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:04:35,491][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:04:36,226][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:04:36,907][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:04:36,955][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7475, out=0.9976
+[2025-03-23 16:04:36,956][t3sc.utils.tester][INFO] - 	MPSNR : in=35.3896, out=57.6904
+[2025-03-23 16:04:36,956][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9945, out=0.9997
+[2025-03-23 16:04:36,956][t3sc.utils.tester][INFO] - 	PSNR : in=35.3741, out=57.1286
+[2025-03-23 16:04:36,956][t3sc.utils.tester][INFO] - 	MSAM : in=0.5961, out=0.0539
+[2025-03-23 16:04:36,956][t3sc.utils.tester][INFO] - 	MERGAS : in=10.2343, out=0.7691
+[2025-03-23 16:04:36,956][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:04:36,956][t3sc.utils.tester][DEBUG] - No crop found for Labtest_0910-1511, not saving to RGB
+[2025-03-23 16:04:36,956][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:04:37,210][t3sc.utils.tester][INFO] - Image ID 9/50: Ramot0325-1364
+[2025-03-23 16:04:37,211][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:04:37,211][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:04:37,211][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:04:37,211][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:04:37,212][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:05:02,369][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:05:02,369][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:05:02,370][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:05:02,370][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:05:06,627][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:05:06,638][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:05:07,463][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:05:21,431][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:05:30,366][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:05:31,244][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:05:31,996][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:05:32,676][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:05:32,724][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7396, out=0.9982
+[2025-03-23 16:05:32,724][t3sc.utils.tester][INFO] - 	MPSNR : in=34.6175, out=56.3012
+[2025-03-23 16:05:32,724][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9940, out=0.9997
+[2025-03-23 16:05:32,724][t3sc.utils.tester][INFO] - 	PSNR : in=34.6004, out=56.0341
+[2025-03-23 16:05:32,724][t3sc.utils.tester][INFO] - 	MSAM : in=0.3671, out=0.0235
+[2025-03-23 16:05:32,724][t3sc.utils.tester][INFO] - 	MERGAS : in=8.0598, out=0.6460
+[2025-03-23 16:05:32,724][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:05:32,724][t3sc.utils.tester][DEBUG] - No crop found for Ramot0325-1364, not saving to RGB
+[2025-03-23 16:05:32,725][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:05:32,993][t3sc.utils.tester][INFO] - Image ID 10/50: bguCAMP_0514-1659
+[2025-03-23 16:05:32,993][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:05:32,994][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:05:32,994][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:05:32,994][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:05:32,995][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:05:58,391][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:05:58,392][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:05:58,392][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:05:58,392][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:06:02,665][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:06:02,676][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:06:03,557][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:06:17,843][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:06:26,369][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:06:27,233][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:06:28,057][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:06:28,738][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:06:28,784][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7538, out=0.9963
+[2025-03-23 16:06:28,784][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3254, out=52.2396
+[2025-03-23 16:06:28,784][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9956, out=0.9997
+[2025-03-23 16:06:28,784][t3sc.utils.tester][INFO] - 	PSNR : in=34.3187, out=51.9300
+[2025-03-23 16:06:28,784][t3sc.utils.tester][INFO] - 	MSAM : in=0.1911, out=0.0175
+[2025-03-23 16:06:28,784][t3sc.utils.tester][INFO] - 	MERGAS : in=4.6141, out=0.5609
+[2025-03-23 16:06:28,785][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:06:28,785][t3sc.utils.tester][DEBUG] - No crop found for bguCAMP_0514-1659, not saving to RGB
+[2025-03-23 16:06:28,785][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:06:29,045][t3sc.utils.tester][INFO] - Image ID 11/50: bguCAMP_0514-1711
+[2025-03-23 16:06:29,045][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:06:29,046][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:06:29,046][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:06:29,047][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:06:29,047][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:06:53,681][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:06:53,682][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:06:53,682][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:06:53,682][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:06:57,826][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:06:57,837][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:06:58,947][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:07:13,944][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:07:21,938][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:07:22,831][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:07:23,750][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:07:24,674][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:07:24,762][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7500, out=0.9967
+[2025-03-23 16:07:24,763][t3sc.utils.tester][INFO] - 	MPSNR : in=34.7720, out=54.1042
+[2025-03-23 16:07:24,763][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9954, out=0.9997
+[2025-03-23 16:07:24,763][t3sc.utils.tester][INFO] - 	PSNR : in=34.7593, out=53.7138
+[2025-03-23 16:07:24,763][t3sc.utils.tester][INFO] - 	MSAM : in=0.3771, out=0.0321
+[2025-03-23 16:07:24,763][t3sc.utils.tester][INFO] - 	MERGAS : in=5.6983, out=0.6007
+[2025-03-23 16:07:24,763][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:07:24,763][t3sc.utils.tester][DEBUG] - No crop found for bguCAMP_0514-1711, not saving to RGB
+[2025-03-23 16:07:24,763][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:07:25,148][t3sc.utils.tester][INFO] - Image ID 12/50: bgu_0403-1439
+[2025-03-23 16:07:25,148][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:07:25,148][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:07:25,149][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:07:25,150][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:07:25,152][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:07:51,164][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:07:51,164][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:07:51,165][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:07:51,165][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:07:55,401][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:07:55,412][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:07:56,264][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:08:10,223][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:08:19,207][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:08:20,122][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:08:20,935][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:08:21,624][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:08:21,672][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7679, out=0.9957
+[2025-03-23 16:08:21,672][t3sc.utils.tester][INFO] - 	MPSNR : in=34.6337, out=52.0358
+[2025-03-23 16:08:21,672][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9961, out=0.9996
+[2025-03-23 16:08:21,672][t3sc.utils.tester][INFO] - 	PSNR : in=34.5933, out=51.4916
+[2025-03-23 16:08:21,672][t3sc.utils.tester][INFO] - 	MSAM : in=0.3389, out=0.0306
+[2025-03-23 16:08:21,672][t3sc.utils.tester][INFO] - 	MERGAS : in=8.1800, out=1.0214
+[2025-03-23 16:08:21,672][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:08:21,672][t3sc.utils.tester][DEBUG] - No crop found for bgu_0403-1439, not saving to RGB
+[2025-03-23 16:08:21,672][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:08:21,936][t3sc.utils.tester][INFO] - Image ID 13/50: bgu_0403-1444
+[2025-03-23 16:08:21,937][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:08:21,937][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:08:21,937][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:08:21,938][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:08:21,938][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:08:46,331][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:08:46,331][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:08:46,332][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:08:46,332][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:08:50,452][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:08:50,463][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:08:51,309][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:09:05,523][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:09:14,477][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:09:15,341][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:09:16,066][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:09:16,772][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:09:16,822][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7612, out=0.9969
+[2025-03-23 16:09:16,822][t3sc.utils.tester][INFO] - 	MPSNR : in=34.8086, out=54.0324
+[2025-03-23 16:09:16,822][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9960, out=0.9997
+[2025-03-23 16:09:16,822][t3sc.utils.tester][INFO] - 	PSNR : in=34.7873, out=53.5502
+[2025-03-23 16:09:16,822][t3sc.utils.tester][INFO] - 	MSAM : in=0.3949, out=0.0302
+[2025-03-23 16:09:16,822][t3sc.utils.tester][INFO] - 	MERGAS : in=6.9720, out=0.7193
+[2025-03-23 16:09:16,823][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:09:16,823][t3sc.utils.tester][DEBUG] - No crop found for bgu_0403-1444, not saving to RGB
+[2025-03-23 16:09:16,823][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:09:17,101][t3sc.utils.tester][INFO] - Image ID 14/50: bulb_0822-0909
+[2025-03-23 16:09:17,101][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:09:17,101][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:09:17,101][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:09:17,102][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:09:17,102][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:09:42,918][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:09:42,919][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:09:42,919][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:09:42,919][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:09:47,152][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:09:47,163][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:09:48,027][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:10:02,398][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:10:11,036][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:10:11,900][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:10:12,656][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:10:13,335][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:10:13,382][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7537, out=0.9954
+[2025-03-23 16:10:13,382][t3sc.utils.tester][INFO] - 	MPSNR : in=34.4014, out=52.4780
+[2025-03-23 16:10:13,382][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9959, out=0.9996
+[2025-03-23 16:10:13,382][t3sc.utils.tester][INFO] - 	PSNR : in=34.3862, out=51.8720
+[2025-03-23 16:10:13,382][t3sc.utils.tester][INFO] - 	MSAM : in=0.2358, out=0.0219
+[2025-03-23 16:10:13,382][t3sc.utils.tester][INFO] - 	MERGAS : in=6.5109, out=0.7569
+[2025-03-23 16:10:13,382][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:10:13,382][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:10:14,328][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/bulb_0822-0909_in.png'
+[2025-03-23 16:10:15,038][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/bulb_0822-0909_out.png'
+[2025-03-23 16:10:15,364][t3sc.utils.tester][INFO] - Image ID 15/50: eve_0331-1549
+[2025-03-23 16:10:15,365][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:10:15,365][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:10:15,365][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:10:15,366][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:10:15,366][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:10:40,433][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:10:40,433][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:10:40,434][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:10:40,434][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:10:44,685][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:10:44,696][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:10:45,520][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:10:59,484][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:11:07,582][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:11:08,644][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:11:09,711][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:11:10,534][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:11:10,619][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7431, out=0.9961
+[2025-03-23 16:11:10,619][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3836, out=52.9350
+[2025-03-23 16:11:10,619][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9955, out=0.9997
+[2025-03-23 16:11:10,619][t3sc.utils.tester][INFO] - 	PSNR : in=34.3714, out=52.4327
+[2025-03-23 16:11:10,620][t3sc.utils.tester][INFO] - 	MSAM : in=0.2174, out=0.0173
+[2025-03-23 16:11:10,620][t3sc.utils.tester][INFO] - 	MERGAS : in=5.6643, out=0.6263
+[2025-03-23 16:11:10,620][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:11:10,620][t3sc.utils.tester][DEBUG] - No crop found for eve_0331-1549, not saving to RGB
+[2025-03-23 16:11:10,620][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:11:10,984][t3sc.utils.tester][INFO] - Image ID 16/50: eve_0331-1551
+[2025-03-23 16:11:10,985][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:11:10,985][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:11:10,985][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:11:10,986][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:11:10,987][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:11:36,252][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:11:36,252][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:11:36,253][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:11:36,253][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:11:40,451][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:11:40,462][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:11:41,298][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:11:54,603][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:12:03,693][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:12:04,547][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:12:05,322][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:12:05,987][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:12:06,038][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7583, out=0.9958
+[2025-03-23 16:12:06,038][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2269, out=52.2576
+[2025-03-23 16:12:06,039][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9955, out=0.9997
+[2025-03-23 16:12:06,039][t3sc.utils.tester][INFO] - 	PSNR : in=34.2225, out=51.6641
+[2025-03-23 16:12:06,039][t3sc.utils.tester][INFO] - 	MSAM : in=0.1094, out=0.0118
+[2025-03-23 16:12:06,039][t3sc.utils.tester][INFO] - 	MERGAS : in=4.9629, out=0.5681
+[2025-03-23 16:12:06,039][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:12:06,039][t3sc.utils.tester][DEBUG] - No crop found for eve_0331-1551, not saving to RGB
+[2025-03-23 16:12:06,039][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:12:06,290][t3sc.utils.tester][INFO] - Image ID 17/50: eve_0331-1633
+[2025-03-23 16:12:06,290][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:12:06,291][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:12:06,291][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:12:06,291][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:12:06,292][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:12:31,573][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:12:31,573][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:12:31,573][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:12:31,573][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:12:35,828][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:12:35,839][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:12:36,680][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:12:49,992][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:12:59,067][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:12:59,920][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:13:00,682][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:13:01,350][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:13:01,396][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7540, out=0.9972
+[2025-03-23 16:13:01,396][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3219, out=53.9315
+[2025-03-23 16:13:01,396][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9956, out=0.9997
+[2025-03-23 16:13:01,396][t3sc.utils.tester][INFO] - 	PSNR : in=34.3090, out=53.3372
+[2025-03-23 16:13:01,396][t3sc.utils.tester][INFO] - 	MSAM : in=0.1932, out=0.0156
+[2025-03-23 16:13:01,396][t3sc.utils.tester][INFO] - 	MERGAS : in=6.3544, out=0.6175
+[2025-03-23 16:13:01,396][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:13:01,396][t3sc.utils.tester][DEBUG] - No crop found for eve_0331-1633, not saving to RGB
+[2025-03-23 16:13:01,396][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:13:01,658][t3sc.utils.tester][INFO] - Image ID 18/50: eve_0331-1646
+[2025-03-23 16:13:01,658][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:13:01,659][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:13:01,659][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:13:01,659][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:13:01,659][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:13:26,759][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:13:26,760][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:13:26,760][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:13:26,760][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:13:31,005][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:13:31,016][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:13:31,871][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:13:44,741][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:13:53,909][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:13:54,765][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:13:55,571][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:13:56,239][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:13:56,296][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7574, out=0.9958
+[2025-03-23 16:13:56,296][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2528, out=52.0964
+[2025-03-23 16:13:56,296][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9959, out=0.9997
+[2025-03-23 16:13:56,296][t3sc.utils.tester][INFO] - 	PSNR : in=34.2458, out=51.4422
+[2025-03-23 16:13:56,296][t3sc.utils.tester][INFO] - 	MSAM : in=0.1162, out=0.0122
+[2025-03-23 16:13:56,296][t3sc.utils.tester][INFO] - 	MERGAS : in=5.0047, out=0.6000
+[2025-03-23 16:13:56,296][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:13:56,296][t3sc.utils.tester][DEBUG] - No crop found for eve_0331-1646, not saving to RGB
+[2025-03-23 16:13:56,296][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:13:56,557][t3sc.utils.tester][INFO] - Image ID 19/50: eve_0331-1647
+[2025-03-23 16:13:56,558][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:13:56,558][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:13:56,558][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:13:56,559][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:13:56,559][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:14:22,121][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:14:22,122][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:14:22,122][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:14:22,122][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:14:26,397][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:14:26,408][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:14:27,499][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:14:40,495][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:14:48,849][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:14:49,714][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:14:50,468][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:14:51,157][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:14:51,205][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7755, out=0.9953
+[2025-03-23 16:14:51,205][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2078, out=51.0505
+[2025-03-23 16:14:51,205][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9960, out=0.9997
+[2025-03-23 16:14:51,205][t3sc.utils.tester][INFO] - 	PSNR : in=34.2048, out=50.4059
+[2025-03-23 16:14:51,205][t3sc.utils.tester][INFO] - 	MSAM : in=0.0928, out=0.0106
+[2025-03-23 16:14:51,205][t3sc.utils.tester][INFO] - 	MERGAS : in=4.6001, out=0.6051
+[2025-03-23 16:14:51,206][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:14:51,206][t3sc.utils.tester][DEBUG] - No crop found for eve_0331-1647, not saving to RGB
+[2025-03-23 16:14:51,206][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:14:51,468][t3sc.utils.tester][INFO] - Image ID 20/50: gavyam_0823-0930
+[2025-03-23 16:14:51,469][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:14:51,469][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:14:51,469][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:14:51,470][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:14:51,470][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:15:16,772][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:15:16,773][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:15:16,773][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:15:16,773][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:15:21,061][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:15:21,072][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:15:22,067][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:15:35,057][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:15:42,850][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:15:43,727][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:15:44,554][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:15:45,354][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:15:45,440][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7633, out=0.9953
+[2025-03-23 16:15:45,440][t3sc.utils.tester][INFO] - 	MPSNR : in=34.6018, out=52.3245
+[2025-03-23 16:15:45,440][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9961, out=0.9996
+[2025-03-23 16:15:45,440][t3sc.utils.tester][INFO] - 	PSNR : in=34.5832, out=51.7233
+[2025-03-23 16:15:45,440][t3sc.utils.tester][INFO] - 	MSAM : in=0.3073, out=0.0303
+[2025-03-23 16:15:45,440][t3sc.utils.tester][INFO] - 	MERGAS : in=6.5186, out=0.7965
+[2025-03-23 16:15:45,440][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:15:45,441][t3sc.utils.tester][DEBUG] - No crop found for gavyam_0823-0930, not saving to RGB
+[2025-03-23 16:15:45,441][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:15:45,766][t3sc.utils.tester][INFO] - Image ID 21/50: gavyam_0823-0933
+[2025-03-23 16:15:45,766][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:15:45,767][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:15:45,767][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:15:45,768][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:15:45,768][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:16:11,166][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:16:11,167][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:16:11,167][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:16:11,167][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:16:15,435][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:16:15,446][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:16:16,276][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:16:29,198][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:16:37,174][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:16:38,048][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:16:39,145][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:16:39,980][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:16:40,061][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7619, out=0.9958
+[2025-03-23 16:16:40,061][t3sc.utils.tester][INFO] - 	MPSNR : in=34.1938, out=51.7360
+[2025-03-23 16:16:40,062][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9957, out=0.9997
+[2025-03-23 16:16:40,062][t3sc.utils.tester][INFO] - 	PSNR : in=34.1918, out=51.3559
+[2025-03-23 16:16:40,062][t3sc.utils.tester][INFO] - 	MSAM : in=0.1035, out=0.0108
+[2025-03-23 16:16:40,062][t3sc.utils.tester][INFO] - 	MERGAS : in=4.7565, out=0.5883
+[2025-03-23 16:16:40,062][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:16:40,062][t3sc.utils.tester][DEBUG] - No crop found for gavyam_0823-0933, not saving to RGB
+[2025-03-23 16:16:40,062][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:16:40,411][t3sc.utils.tester][INFO] - Image ID 22/50: grf_0328-0949
+[2025-03-23 16:16:40,411][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:16:40,412][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:16:40,412][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:16:40,413][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:16:40,413][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:17:05,779][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:17:05,780][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:17:05,780][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:17:05,780][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:17:10,040][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:17:10,051][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:17:10,878][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:17:24,091][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:17:32,595][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:17:33,765][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:17:34,602][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:17:35,281][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:17:35,330][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7646, out=0.9965
+[2025-03-23 16:17:35,330][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2349, out=51.9930
+[2025-03-23 16:17:35,330][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9952, out=0.9998
+[2025-03-23 16:17:35,330][t3sc.utils.tester][INFO] - 	PSNR : in=34.2315, out=51.5158
+[2025-03-23 16:17:35,330][t3sc.utils.tester][INFO] - 	MSAM : in=0.1669, out=0.0142
+[2025-03-23 16:17:35,330][t3sc.utils.tester][INFO] - 	MERGAS : in=5.6571, out=0.6988
+[2025-03-23 16:17:35,330][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:17:35,330][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:17:35,887][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/grf_0328-0949_in.png'
+[2025-03-23 16:17:36,421][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/grf_0328-0949_out.png'
+[2025-03-23 16:17:36,677][t3sc.utils.tester][INFO] - Image ID 23/50: hill_0325-1219
+[2025-03-23 16:17:36,678][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1202])
+[2025-03-23 16:17:36,678][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:17:36,679][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:17:36,679][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 5])
+[2025-03-23 16:17:36,679][t3sc.models.base][DEBUG] - Processing blocks (6, 5)
+[2025-03-23 16:17:56,711][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1256))
+[2025-03-23 16:17:56,712][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1202)
+[2025-03-23 16:17:56,712][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:17:56,712][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:18:00,835][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:18:00,845][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:18:01,616][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:18:13,768][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1202)
+[2025-03-23 16:18:20,224][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:18:21,015][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:18:21,829][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:18:22,445][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:18:22,488][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7735, out=0.9957
+[2025-03-23 16:18:22,489][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2058, out=50.6740
+[2025-03-23 16:18:22,489][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9956, out=0.9997
+[2025-03-23 16:18:22,489][t3sc.utils.tester][INFO] - 	PSNR : in=34.2038, out=50.1696
+[2025-03-23 16:18:22,489][t3sc.utils.tester][INFO] - 	MSAM : in=0.1419, out=0.0119
+[2025-03-23 16:18:22,489][t3sc.utils.tester][INFO] - 	MERGAS : in=4.9464, out=0.6940
+[2025-03-23 16:18:22,489][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:18:22,489][t3sc.utils.tester][DEBUG] - No crop found for hill_0325-1219, not saving to RGB
+[2025-03-23 16:18:22,489][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:18:22,720][t3sc.utils.tester][INFO] - Image ID 24/50: hill_0325-1228
+[2025-03-23 16:18:22,720][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1196])
+[2025-03-23 16:18:22,721][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:18:22,721][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:18:22,721][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 5])
+[2025-03-23 16:18:22,721][t3sc.models.base][DEBUG] - Processing blocks (6, 5)
+[2025-03-23 16:18:43,518][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1256))
+[2025-03-23 16:18:43,519][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1196)
+[2025-03-23 16:18:43,519][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:18:43,519][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:18:47,771][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:18:47,781][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:18:48,531][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:19:00,634][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1196)
+[2025-03-23 16:19:11,893][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:19:12,679][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:19:13,348][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:19:13,976][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:19:14,020][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7584, out=0.9962
+[2025-03-23 16:19:14,020][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2225, out=51.8479
+[2025-03-23 16:19:14,020][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9953, out=0.9998
+[2025-03-23 16:19:14,021][t3sc.utils.tester][INFO] - 	PSNR : in=34.2188, out=51.3376
+[2025-03-23 16:19:14,021][t3sc.utils.tester][INFO] - 	MSAM : in=0.1438, out=0.0133
+[2025-03-23 16:19:14,021][t3sc.utils.tester][INFO] - 	MERGAS : in=5.5086, out=0.7070
+[2025-03-23 16:19:14,021][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:19:14,021][t3sc.utils.tester][DEBUG] - No crop found for hill_0325-1228, not saving to RGB
+[2025-03-23 16:19:14,021][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:19:14,283][t3sc.utils.tester][INFO] - Image ID 25/50: lehavim_0910-1600
+[2025-03-23 16:19:14,283][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:19:14,283][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:19:14,283][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:19:14,284][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:19:14,284][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:19:39,270][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:19:39,271][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:19:39,271][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:19:39,271][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:19:43,540][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:19:43,551][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:19:44,606][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:19:58,114][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:20:06,724][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:20:07,590][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:20:08,361][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:20:09,051][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:20:09,097][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7698, out=0.9961
+[2025-03-23 16:20:09,097][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3478, out=52.5777
+[2025-03-23 16:20:09,097][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9961, out=0.9997
+[2025-03-23 16:20:09,098][t3sc.utils.tester][INFO] - 	PSNR : in=34.3348, out=51.8737
+[2025-03-23 16:20:09,098][t3sc.utils.tester][INFO] - 	MSAM : in=0.1939, out=0.0156
+[2025-03-23 16:20:09,098][t3sc.utils.tester][INFO] - 	MERGAS : in=5.9453, out=0.6458
+[2025-03-23 16:20:09,098][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:20:09,098][t3sc.utils.tester][DEBUG] - No crop found for lehavim_0910-1600, not saving to RGB
+[2025-03-23 16:20:09,098][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:20:09,364][t3sc.utils.tester][INFO] - Image ID 26/50: lehavim_0910-1602
+[2025-03-23 16:20:09,365][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:20:09,365][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:20:09,366][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:20:09,366][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:20:09,366][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:20:34,901][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:20:34,902][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:20:34,902][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:20:34,902][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:20:39,185][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:20:39,196][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:20:40,278][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:20:53,284][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:21:01,241][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:21:02,122][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:21:02,909][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:21:03,595][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:21:03,677][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7509, out=0.9965
+[2025-03-23 16:21:03,678][t3sc.utils.tester][INFO] - 	MPSNR : in=34.5190, out=53.7559
+[2025-03-23 16:21:03,678][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9951, out=0.9997
+[2025-03-23 16:21:03,678][t3sc.utils.tester][INFO] - 	PSNR : in=34.5058, out=53.2531
+[2025-03-23 16:21:03,678][t3sc.utils.tester][INFO] - 	MSAM : in=0.2932, out=0.0250
+[2025-03-23 16:21:03,678][t3sc.utils.tester][INFO] - 	MERGAS : in=6.9283, out=0.7062
+[2025-03-23 16:21:03,678][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:21:03,682][t3sc.utils.tester][DEBUG] - No crop found for lehavim_0910-1602, not saving to RGB
+[2025-03-23 16:21:03,683][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:21:04,026][t3sc.utils.tester][INFO] - Image ID 27/50: mor_0328-1209-2
+[2025-03-23 16:21:04,026][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1027])
+[2025-03-23 16:21:04,026][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:21:04,027][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:21:04,027][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 5])
+[2025-03-23 16:21:04,028][t3sc.models.base][DEBUG] - Processing blocks (6, 5)
+[2025-03-23 16:21:24,247][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1256))
+[2025-03-23 16:21:24,248][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1027)
+[2025-03-23 16:21:24,248][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:21:24,248][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:21:28,459][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:21:28,468][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:21:29,124][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:21:39,894][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1027)
+[2025-03-23 16:21:48,092][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:21:48,787][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:21:49,421][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:21:49,948][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:21:49,987][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7890, out=0.9950
+[2025-03-23 16:21:49,987][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2544, out=50.5344
+[2025-03-23 16:21:49,987][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9951, out=0.9995
+[2025-03-23 16:21:49,987][t3sc.utils.tester][INFO] - 	PSNR : in=34.2488, out=50.1504
+[2025-03-23 16:21:49,987][t3sc.utils.tester][INFO] - 	MSAM : in=0.1737, out=0.0187
+[2025-03-23 16:21:49,987][t3sc.utils.tester][INFO] - 	MERGAS : in=5.3390, out=0.7680
+[2025-03-23 16:21:49,987][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:21:49,987][t3sc.utils.tester][DEBUG] - No crop found for mor_0328-1209-2, not saving to RGB
+[2025-03-23 16:21:49,987][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:21:50,220][t3sc.utils.tester][INFO] - Image ID 28/50: nachal_0823-1040
+[2025-03-23 16:21:50,221][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:21:50,221][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:21:50,221][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:21:50,222][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:21:50,222][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:22:16,088][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:22:16,089][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:22:16,089][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:22:16,089][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:22:20,377][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:22:20,388][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:22:21,273][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:22:34,683][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:22:43,647][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:22:44,528][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:22:45,280][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:22:46,014][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:22:46,060][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7918, out=0.9957
+[2025-03-23 16:22:46,060][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3157, out=51.2271
+[2025-03-23 16:22:46,060][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9966, out=0.9997
+[2025-03-23 16:22:46,060][t3sc.utils.tester][INFO] - 	PSNR : in=34.3084, out=50.7683
+[2025-03-23 16:22:46,060][t3sc.utils.tester][INFO] - 	MSAM : in=0.1734, out=0.0185
+[2025-03-23 16:22:46,060][t3sc.utils.tester][INFO] - 	MERGAS : in=5.2163, out=0.6886
+[2025-03-23 16:22:46,060][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:22:46,060][t3sc.utils.tester][DEBUG] - No crop found for nachal_0823-1040, not saving to RGB
+[2025-03-23 16:22:46,060][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:22:46,330][t3sc.utils.tester][INFO] - Image ID 29/50: nachal_0823-1047
+[2025-03-23 16:22:46,330][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:22:46,331][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:22:46,331][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:22:46,331][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:22:46,331][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:23:11,353][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:23:11,354][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:23:11,354][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:23:11,354][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:23:15,629][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:23:15,640][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:23:16,482][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:23:30,144][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:23:39,130][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:23:40,000][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:23:40,706][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:23:41,398][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:23:41,443][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7738, out=0.9965
+[2025-03-23 16:23:41,444][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2864, out=52.6046
+[2025-03-23 16:23:41,444][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9961, out=0.9997
+[2025-03-23 16:23:41,444][t3sc.utils.tester][INFO] - 	PSNR : in=34.2788, out=52.0922
+[2025-03-23 16:23:41,444][t3sc.utils.tester][INFO] - 	MSAM : in=0.1754, out=0.0163
+[2025-03-23 16:23:41,444][t3sc.utils.tester][INFO] - 	MERGAS : in=5.6404, out=0.6396
+[2025-03-23 16:23:41,444][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:23:41,444][t3sc.utils.tester][DEBUG] - No crop found for nachal_0823-1047, not saving to RGB
+[2025-03-23 16:23:41,444][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:23:41,690][t3sc.utils.tester][INFO] - Image ID 30/50: nachal_0823-1110
+[2025-03-23 16:23:41,690][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:23:41,691][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:23:41,691][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:23:41,691][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:23:41,692][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:24:07,259][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:24:07,260][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:24:07,260][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:24:07,260][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:24:11,518][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:24:11,530][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:24:12,608][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:24:26,445][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:24:34,442][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:24:35,321][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:24:36,132][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:24:36,976][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:24:37,070][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7633, out=0.9956
+[2025-03-23 16:24:37,070][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2558, out=51.9770
+[2025-03-23 16:24:37,070][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9951, out=0.9997
+[2025-03-23 16:24:37,070][t3sc.utils.tester][INFO] - 	PSNR : in=34.2486, out=51.2886
+[2025-03-23 16:24:37,070][t3sc.utils.tester][INFO] - 	MSAM : in=0.1240, out=0.0139
+[2025-03-23 16:24:37,070][t3sc.utils.tester][INFO] - 	MERGAS : in=4.9859, out=0.6145
+[2025-03-23 16:24:37,070][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:24:37,070][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:24:37,830][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/nachal_0823-1110_in.png'
+[2025-03-23 16:24:38,649][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/nachal_0823-1110_out.png'
+[2025-03-23 16:24:38,970][t3sc.utils.tester][INFO] - Image ID 31/50: nachal_0823-1117
+[2025-03-23 16:24:38,970][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:24:38,970][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:24:38,971][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:24:38,971][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:24:38,972][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:25:04,167][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:25:04,167][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:25:04,168][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:25:04,168][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:25:08,436][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:25:08,447][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:25:09,270][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:25:22,754][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:25:30,860][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:25:32,021][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:25:33,051][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:25:33,770][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:25:33,817][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7610, out=0.9963
+[2025-03-23 16:25:33,817][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2900, out=52.6309
+[2025-03-23 16:25:33,817][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9956, out=0.9997
+[2025-03-23 16:25:33,817][t3sc.utils.tester][INFO] - 	PSNR : in=34.2840, out=52.0966
+[2025-03-23 16:25:33,818][t3sc.utils.tester][INFO] - 	MSAM : in=0.1632, out=0.0157
+[2025-03-23 16:25:33,818][t3sc.utils.tester][INFO] - 	MERGAS : in=5.1029, out=0.5812
+[2025-03-23 16:25:33,818][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:25:33,818][t3sc.utils.tester][DEBUG] - No crop found for nachal_0823-1117, not saving to RGB
+[2025-03-23 16:25:33,818][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:25:34,093][t3sc.utils.tester][INFO] - Image ID 32/50: nachal_0823-1144
+[2025-03-23 16:25:34,094][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:25:34,094][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:25:34,094][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:25:34,095][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:25:34,095][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:25:59,563][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:25:59,563][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:25:59,564][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:25:59,564][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:26:03,839][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:26:03,850][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:26:04,710][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:26:18,181][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:26:27,166][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:26:28,028][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:26:28,815][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:26:29,484][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:26:29,530][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7521, out=0.9965
+[2025-03-23 16:26:29,530][t3sc.utils.tester][INFO] - 	MPSNR : in=34.4172, out=53.2227
+[2025-03-23 16:26:29,531][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9941, out=0.9997
+[2025-03-23 16:26:29,531][t3sc.utils.tester][INFO] - 	PSNR : in=34.4084, out=52.6960
+[2025-03-23 16:26:29,531][t3sc.utils.tester][INFO] - 	MSAM : in=0.2069, out=0.0204
+[2025-03-23 16:26:29,531][t3sc.utils.tester][INFO] - 	MERGAS : in=5.3508, out=0.5907
+[2025-03-23 16:26:29,531][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:26:29,531][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:26:30,089][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/nachal_0823-1144_in.png'
+[2025-03-23 16:26:30,575][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/nachal_0823-1144_out.png'
+[2025-03-23 16:26:30,846][t3sc.utils.tester][INFO] - Image ID 33/50: negev_0823-1005
+[2025-03-23 16:26:30,847][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:26:30,847][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:26:30,847][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:26:30,848][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:26:30,848][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:26:56,210][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:26:56,210][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:26:56,211][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:26:56,211][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:27:00,479][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:27:00,490][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:27:01,332][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:27:14,889][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:27:23,914][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:27:24,778][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:27:25,546][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:27:26,281][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:27:26,329][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7746, out=0.9962
+[2025-03-23 16:27:26,329][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2006, out=51.6376
+[2025-03-23 16:27:26,329][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9951, out=0.9998
+[2025-03-23 16:27:26,329][t3sc.utils.tester][INFO] - 	PSNR : in=34.1980, out=50.9810
+[2025-03-23 16:27:26,329][t3sc.utils.tester][INFO] - 	MSAM : in=0.0946, out=0.0106
+[2025-03-23 16:27:26,329][t3sc.utils.tester][INFO] - 	MERGAS : in=4.7349, out=0.5917
+[2025-03-23 16:27:26,329][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:27:26,330][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:27:26,881][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/negev_0823-1005_in.png'
+[2025-03-23 16:27:27,457][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/negev_0823-1005_out.png'
+[2025-03-23 16:27:27,731][t3sc.utils.tester][INFO] - Image ID 34/50: objects_0924-1636
+[2025-03-23 16:27:27,731][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:27:27,732][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:27:27,732][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:27:27,732][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:27:27,733][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:27:53,153][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:27:53,154][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:27:53,154][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:27:53,154][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:27:57,455][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:27:57,467][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:27:58,493][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:28:12,023][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:28:19,944][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:28:20,814][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:28:21,659][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:28:22,548][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:28:22,631][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7418, out=0.9927
+[2025-03-23 16:28:22,632][t3sc.utils.tester][INFO] - 	MPSNR : in=34.1708, out=50.4940
+[2025-03-23 16:28:22,632][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9957, out=0.9996
+[2025-03-23 16:28:22,632][t3sc.utils.tester][INFO] - 	PSNR : in=34.1706, out=50.2749
+[2025-03-23 16:28:22,632][t3sc.utils.tester][INFO] - 	MSAM : in=0.0929, out=0.0125
+[2025-03-23 16:28:22,632][t3sc.utils.tester][INFO] - 	MERGAS : in=4.1555, out=0.6048
+[2025-03-23 16:28:22,632][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:28:22,632][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:28:23,399][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/objects_0924-1636_in.png'
+[2025-03-23 16:28:24,151][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/objects_0924-1636_out.png'
+[2025-03-23 16:28:24,547][t3sc.utils.tester][INFO] - Image ID 35/50: omer_0331-1055
+[2025-03-23 16:28:24,548][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:28:24,548][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:28:24,549][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:28:24,550][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:28:24,550][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:28:49,885][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:28:49,886][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:28:49,886][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:28:49,886][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:28:54,187][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:28:54,198][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:28:55,025][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:29:08,545][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:29:17,490][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:29:18,363][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:29:19,142][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:29:19,810][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:29:19,857][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7723, out=0.9952
+[2025-03-23 16:29:19,857][t3sc.utils.tester][INFO] - 	MPSNR : in=34.5095, out=51.3038
+[2025-03-23 16:29:19,857][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9964, out=0.9997
+[2025-03-23 16:29:19,857][t3sc.utils.tester][INFO] - 	PSNR : in=34.4907, out=50.7801
+[2025-03-23 16:29:19,857][t3sc.utils.tester][INFO] - 	MSAM : in=0.2787, out=0.0254
+[2025-03-23 16:29:19,858][t3sc.utils.tester][INFO] - 	MERGAS : in=5.7785, out=0.7875
+[2025-03-23 16:29:19,858][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:29:19,858][t3sc.utils.tester][DEBUG] - No crop found for omer_0331-1055, not saving to RGB
+[2025-03-23 16:29:19,858][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:29:20,115][t3sc.utils.tester][INFO] - Image ID 36/50: omer_0331-1102
+[2025-03-23 16:29:20,116][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:29:20,116][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:29:20,117][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:29:20,117][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:29:20,117][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:29:45,537][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:29:45,538][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:29:45,538][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:29:45,538][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:29:49,866][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:29:49,877][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:29:50,740][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:30:04,420][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:30:13,428][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:30:14,284][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:30:15,010][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:30:15,680][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:30:15,725][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7904, out=0.9965
+[2025-03-23 16:30:15,725][t3sc.utils.tester][INFO] - 	MPSNR : in=34.7714, out=51.3475
+[2025-03-23 16:30:15,725][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9964, out=0.9997
+[2025-03-23 16:30:15,725][t3sc.utils.tester][INFO] - 	PSNR : in=34.7598, out=50.9981
+[2025-03-23 16:30:15,725][t3sc.utils.tester][INFO] - 	MSAM : in=0.3730, out=0.0323
+[2025-03-23 16:30:15,725][t3sc.utils.tester][INFO] - 	MERGAS : in=5.4792, out=0.7706
+[2025-03-23 16:30:15,725][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:30:15,725][t3sc.utils.tester][DEBUG] - No crop found for omer_0331-1102, not saving to RGB
+[2025-03-23 16:30:15,725][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:30:15,981][t3sc.utils.tester][INFO] - Image ID 37/50: omer_0331-1118
+[2025-03-23 16:30:15,982][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:30:15,982][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:30:15,982][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:30:15,984][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:30:15,984][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:30:41,360][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:30:41,361][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:30:41,361][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:30:41,361][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:30:45,642][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:30:45,653][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:30:46,496][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:30:59,999][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:31:08,961][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:31:09,824][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:31:10,630][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:31:11,302][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:31:11,348][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7596, out=0.9963
+[2025-03-23 16:31:11,349][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3864, out=52.5907
+[2025-03-23 16:31:11,349][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9958, out=0.9996
+[2025-03-23 16:31:11,349][t3sc.utils.tester][INFO] - 	PSNR : in=34.3764, out=52.1215
+[2025-03-23 16:31:11,349][t3sc.utils.tester][INFO] - 	MSAM : in=0.2135, out=0.0206
+[2025-03-23 16:31:11,349][t3sc.utils.tester][INFO] - 	MERGAS : in=5.8390, out=0.6664
+[2025-03-23 16:31:11,349][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:31:11,349][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:31:11,877][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/omer_0331-1118_in.png'
+[2025-03-23 16:31:12,430][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/omer_0331-1118_out.png'
+[2025-03-23 16:31:12,678][t3sc.utils.tester][INFO] - Image ID 38/50: plt_0411-1037
+[2025-03-23 16:31:12,679][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:31:12,679][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:31:12,679][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:31:12,680][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:31:12,680][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:31:38,063][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:31:38,063][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:31:38,063][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:31:38,063][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:31:42,379][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:31:42,390][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:31:43,347][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:31:56,817][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:32:04,709][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:32:05,589][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:32:06,547][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:32:07,429][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:32:07,511][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7587, out=0.9961
+[2025-03-23 16:32:07,512][t3sc.utils.tester][INFO] - 	MPSNR : in=34.9616, out=53.7112
+[2025-03-23 16:32:07,512][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9961, out=0.9994
+[2025-03-23 16:32:07,512][t3sc.utils.tester][INFO] - 	PSNR : in=34.9142, out=52.6470
+[2025-03-23 16:32:07,512][t3sc.utils.tester][INFO] - 	MSAM : in=0.3268, out=0.0305
+[2025-03-23 16:32:07,512][t3sc.utils.tester][INFO] - 	MERGAS : in=9.1179, out=0.9251
+[2025-03-23 16:32:07,512][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:32:07,512][t3sc.utils.tester][DEBUG] - No crop found for plt_0411-1037, not saving to RGB
+[2025-03-23 16:32:07,512][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:32:07,903][t3sc.utils.tester][INFO] - Image ID 39/50: plt_0411-1046
+[2025-03-23 16:32:07,903][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:32:07,904][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:32:07,904][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:32:07,904][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:32:07,905][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:32:32,648][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:32:32,648][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:32:32,648][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:32:32,648][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:32:36,843][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:32:36,854][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:32:37,686][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:32:51,283][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:32:59,362][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:33:00,534][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:33:01,419][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:33:02,328][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:33:02,373][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7610, out=0.9955
+[2025-03-23 16:33:02,373][t3sc.utils.tester][INFO] - 	MPSNR : in=34.5511, out=52.0713
+[2025-03-23 16:33:02,373][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9965, out=0.9995
+[2025-03-23 16:33:02,373][t3sc.utils.tester][INFO] - 	PSNR : in=34.5175, out=51.5031
+[2025-03-23 16:33:02,373][t3sc.utils.tester][INFO] - 	MSAM : in=0.2842, out=0.0304
+[2025-03-23 16:33:02,373][t3sc.utils.tester][INFO] - 	MERGAS : in=7.9223, out=0.9737
+[2025-03-23 16:33:02,373][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:33:02,374][t3sc.utils.tester][DEBUG] - No crop found for plt_0411-1046, not saving to RGB
+[2025-03-23 16:33:02,374][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:33:02,639][t3sc.utils.tester][INFO] - Image ID 40/50: plt_0411-1116
+[2025-03-23 16:33:02,640][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:33:02,640][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:33:02,640][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:33:02,641][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:33:02,641][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:33:28,454][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:33:28,455][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:33:28,455][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:33:28,455][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:33:32,712][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:33:32,723][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:33:33,563][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:33:46,921][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:33:55,862][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:33:56,717][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:33:57,495][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:33:58,170][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:33:58,218][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7634, out=0.9946
+[2025-03-23 16:33:58,218][t3sc.utils.tester][INFO] - 	MPSNR : in=34.5271, out=51.3127
+[2025-03-23 16:33:58,218][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9964, out=0.9994
+[2025-03-23 16:33:58,218][t3sc.utils.tester][INFO] - 	PSNR : in=34.4953, out=50.4831
+[2025-03-23 16:33:58,218][t3sc.utils.tester][INFO] - 	MSAM : in=0.2882, out=0.0350
+[2025-03-23 16:33:58,218][t3sc.utils.tester][INFO] - 	MERGAS : in=8.3673, out=1.1166
+[2025-03-23 16:33:58,219][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:33:58,219][t3sc.utils.tester][DEBUG] - No crop found for plt_0411-1116, not saving to RGB
+[2025-03-23 16:33:58,219][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:33:58,473][t3sc.utils.tester][INFO] - Image ID 41/50: ramot_0325-1322
+[2025-03-23 16:33:58,473][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:33:58,473][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:33:58,474][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:33:58,474][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:33:58,474][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:34:23,635][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:34:23,636][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:34:23,636][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:34:23,636][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:34:27,897][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:34:27,908][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:34:28,750][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:34:42,297][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:34:51,296][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:34:52,162][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:34:52,958][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:34:53,634][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:34:53,679][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7610, out=0.9966
+[2025-03-23 16:34:53,679][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2809, out=52.4322
+[2025-03-23 16:34:53,679][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9951, out=0.9997
+[2025-03-23 16:34:53,679][t3sc.utils.tester][INFO] - 	PSNR : in=34.2761, out=52.0445
+[2025-03-23 16:34:53,679][t3sc.utils.tester][INFO] - 	MSAM : in=0.1915, out=0.0156
+[2025-03-23 16:34:53,679][t3sc.utils.tester][INFO] - 	MERGAS : in=5.4452, out=0.6311
+[2025-03-23 16:34:53,680][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:34:53,680][t3sc.utils.tester][DEBUG] - No crop found for ramot_0325-1322, not saving to RGB
+[2025-03-23 16:34:53,680][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:34:53,900][t3sc.utils.tester][INFO] - Image ID 42/50: rmt_0328-1241-1
+[2025-03-23 16:34:53,900][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1023])
+[2025-03-23 16:34:53,900][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:34:53,901][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:34:53,901][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 5])
+[2025-03-23 16:34:53,901][t3sc.models.base][DEBUG] - Processing blocks (6, 5)
+[2025-03-23 16:35:14,173][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1256))
+[2025-03-23 16:35:14,174][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1023)
+[2025-03-23 16:35:14,174][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:35:14,174][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:35:18,437][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:35:18,446][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:35:19,087][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:35:30,066][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1023)
+[2025-03-23 16:35:38,476][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:35:39,381][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:35:40,153][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:35:40,766][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:35:40,801][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7418, out=0.9968
+[2025-03-23 16:35:40,801][t3sc.utils.tester][INFO] - 	MPSNR : in=34.4287, out=53.7482
+[2025-03-23 16:35:40,802][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9923, out=0.9996
+[2025-03-23 16:35:40,802][t3sc.utils.tester][INFO] - 	PSNR : in=34.4139, out=53.5152
+[2025-03-23 16:35:40,802][t3sc.utils.tester][INFO] - 	MSAM : in=0.3032, out=0.0245
+[2025-03-23 16:35:40,802][t3sc.utils.tester][INFO] - 	MERGAS : in=7.5154, out=0.7933
+[2025-03-23 16:35:40,802][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:35:40,802][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:35:41,225][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/rmt_0328-1241-1_in.png'
+[2025-03-23 16:35:41,640][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/rmt_0328-1241-1_out.png'
+[2025-03-23 16:35:41,848][t3sc.utils.tester][INFO] - Image ID 43/50: rsh_0406-1343
+[2025-03-23 16:35:41,848][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:35:41,848][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:35:41,848][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:35:41,849][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:35:41,849][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:36:07,417][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:36:07,417][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:36:07,417][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:36:07,418][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:36:11,671][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:36:11,682][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:36:12,494][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:36:25,860][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:36:34,874][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:36:35,729][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:36:36,355][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:36:37,027][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:36:37,086][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7416, out=0.9967
+[2025-03-23 16:36:37,086][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2833, out=53.6324
+[2025-03-23 16:36:37,086][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9947, out=0.9998
+[2025-03-23 16:36:37,086][t3sc.utils.tester][INFO] - 	PSNR : in=34.2780, out=53.1940
+[2025-03-23 16:36:37,086][t3sc.utils.tester][INFO] - 	MSAM : in=0.1937, out=0.0150
+[2025-03-23 16:36:37,086][t3sc.utils.tester][INFO] - 	MERGAS : in=6.0293, out=0.6195
+[2025-03-23 16:36:37,086][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:36:37,086][t3sc.utils.tester][DEBUG] - No crop found for rsh_0406-1343, not saving to RGB
+[2025-03-23 16:36:37,087][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:36:37,315][t3sc.utils.tester][INFO] - Image ID 44/50: rsh_0406-1441-1
+[2025-03-23 16:36:37,315][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:36:37,315][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:36:37,316][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:36:37,316][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:36:37,316][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:37:02,682][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:37:02,683][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:37:02,683][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:37:02,683][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:37:06,952][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:37:06,963][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:37:07,793][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:37:21,206][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:37:30,225][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:37:31,104][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:37:31,722][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:37:32,396][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:37:32,446][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7891, out=0.9946
+[2025-03-23 16:37:32,446][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3022, out=50.1281
+[2025-03-23 16:37:32,446][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9966, out=0.9997
+[2025-03-23 16:37:32,446][t3sc.utils.tester][INFO] - 	PSNR : in=34.2982, out=49.6846
+[2025-03-23 16:37:32,446][t3sc.utils.tester][INFO] - 	MSAM : in=0.1745, out=0.0165
+[2025-03-23 16:37:32,446][t3sc.utils.tester][INFO] - 	MERGAS : in=4.9438, out=0.7326
+[2025-03-23 16:37:32,446][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:37:32,446][t3sc.utils.tester][DEBUG] - Trying to save RGB
+[2025-03-23 16:37:32,992][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/rsh_0406-1441-1_in.png'
+[2025-03-23 16:37:33,668][t3sc.utils.tester][DEBUG] - Image saved to 'rgb/rsh_0406-1441-1_out.png'
+[2025-03-23 16:37:33,901][t3sc.utils.tester][INFO] - Image ID 45/50: sami_0331-1019
+[2025-03-23 16:37:33,901][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:37:33,901][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:37:33,902][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:37:33,902][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:37:33,902][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:37:59,394][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:37:59,395][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:37:59,395][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:37:59,395][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:38:03,673][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:38:03,684][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:38:04,763][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:38:18,492][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:38:26,267][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:38:27,204][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:38:27,836][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:38:28,556][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:38:28,651][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7641, out=0.9957
+[2025-03-23 16:38:28,652][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3498, out=52.0910
+[2025-03-23 16:38:28,652][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9959, out=0.9997
+[2025-03-23 16:38:28,652][t3sc.utils.tester][INFO] - 	PSNR : in=34.3392, out=51.3130
+[2025-03-23 16:38:28,652][t3sc.utils.tester][INFO] - 	MSAM : in=0.1882, out=0.0157
+[2025-03-23 16:38:28,652][t3sc.utils.tester][INFO] - 	MERGAS : in=5.2450, out=0.6088
+[2025-03-23 16:38:28,652][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:38:28,652][t3sc.utils.tester][DEBUG] - No crop found for sami_0331-1019, not saving to RGB
+[2025-03-23 16:38:28,652][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:38:28,964][t3sc.utils.tester][INFO] - Image ID 46/50: sat_0406-1107
+[2025-03-23 16:38:28,964][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:38:28,964][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:38:28,964][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:38:28,965][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:38:28,965][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:38:54,222][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:38:54,223][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:38:54,223][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:38:54,223][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:38:58,502][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:38:58,513][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:38:59,359][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:39:12,860][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:39:20,639][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:39:21,758][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:39:22,507][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:39:23,370][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:39:23,462][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7506, out=0.9967
+[2025-03-23 16:39:23,462][t3sc.utils.tester][INFO] - 	MPSNR : in=34.9897, out=53.8959
+[2025-03-23 16:39:23,462][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9952, out=0.9997
+[2025-03-23 16:39:23,462][t3sc.utils.tester][INFO] - 	PSNR : in=34.9718, out=53.7000
+[2025-03-23 16:39:23,462][t3sc.utils.tester][INFO] - 	MSAM : in=0.4766, out=0.0369
+[2025-03-23 16:39:23,462][t3sc.utils.tester][INFO] - 	MERGAS : in=8.6283, out=0.9465
+[2025-03-23 16:39:23,463][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:39:23,463][t3sc.utils.tester][DEBUG] - No crop found for sat_0406-1107, not saving to RGB
+[2025-03-23 16:39:23,463][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:39:23,781][t3sc.utils.tester][INFO] - Image ID 47/50: sat_0406-1129
+[2025-03-23 16:39:23,781][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:39:23,782][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:39:23,782][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:39:23,783][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:39:23,783][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:39:49,187][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:39:49,188][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:39:49,188][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:39:49,188][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:39:53,471][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:39:53,482][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:39:54,331][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:40:08,029][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:40:16,986][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:40:17,915][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:40:18,563][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:40:19,254][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:40:19,318][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7600, out=0.9942
+[2025-03-23 16:40:19,319][t3sc.utils.tester][INFO] - 	MPSNR : in=34.1821, out=50.6089
+[2025-03-23 16:40:19,319][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9956, out=0.9997
+[2025-03-23 16:40:19,319][t3sc.utils.tester][INFO] - 	PSNR : in=34.1811, out=50.1351
+[2025-03-23 16:40:19,319][t3sc.utils.tester][INFO] - 	MSAM : in=0.0776, out=0.0096
+[2025-03-23 16:40:19,319][t3sc.utils.tester][INFO] - 	MERGAS : in=4.2267, out=0.5853
+[2025-03-23 16:40:19,319][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:40:19,319][t3sc.utils.tester][DEBUG] - No crop found for sat_0406-1129, not saving to RGB
+[2025-03-23 16:40:19,319][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:40:19,540][t3sc.utils.tester][INFO] - Image ID 48/50: strt_0331-1027
+[2025-03-23 16:40:19,541][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1300])
+[2025-03-23 16:40:19,541][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:40:19,541][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:40:19,541][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 6])
+[2025-03-23 16:40:19,542][t3sc.models.base][DEBUG] - Processing blocks (6, 6)
+[2025-03-23 16:40:44,781][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1506))
+[2025-03-23 16:40:44,782][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1300)
+[2025-03-23 16:40:44,782][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:40:44,782][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:40:49,100][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:40:49,111][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:40:49,966][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:41:03,691][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1300)
+[2025-03-23 16:41:12,649][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:41:13,545][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:41:14,187][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:41:14,878][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:41:14,936][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7528, out=0.9963
+[2025-03-23 16:41:14,936][t3sc.utils.tester][INFO] - 	MPSNR : in=34.4298, out=52.3724
+[2025-03-23 16:41:14,936][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9957, out=0.9997
+[2025-03-23 16:41:14,936][t3sc.utils.tester][INFO] - 	PSNR : in=34.4140, out=52.0117
+[2025-03-23 16:41:14,936][t3sc.utils.tester][INFO] - 	MSAM : in=0.2648, out=0.0203
+[2025-03-23 16:41:14,936][t3sc.utils.tester][INFO] - 	MERGAS : in=5.6501, out=0.6766
+[2025-03-23 16:41:14,936][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:41:14,936][t3sc.utils.tester][DEBUG] - No crop found for strt_0331-1027, not saving to RGB
+[2025-03-23 16:41:14,936][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:41:15,135][t3sc.utils.tester][INFO] - Image ID 49/50: tree_0822-0853
+[2025-03-23 16:41:15,136][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1084])
+[2025-03-23 16:41:15,136][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:41:15,136][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:41:15,136][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 5])
+[2025-03-23 16:41:15,136][t3sc.models.base][DEBUG] - Processing blocks (6, 5)
+[2025-03-23 16:41:35,476][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1256))
+[2025-03-23 16:41:35,477][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1084)
+[2025-03-23 16:41:35,477][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:41:35,477][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:41:39,746][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:41:39,755][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:41:40,480][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:41:51,630][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1084)
+[2025-03-23 16:42:07,654][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:42:08,411][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:42:08,930][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:42:09,505][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:42:09,552][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7702, out=0.9957
+[2025-03-23 16:42:09,552][t3sc.utils.tester][INFO] - 	MPSNR : in=34.3616, out=52.1583
+[2025-03-23 16:42:09,552][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9936, out=0.9996
+[2025-03-23 16:42:09,552][t3sc.utils.tester][INFO] - 	PSNR : in=34.3541, out=51.5251
+[2025-03-23 16:42:09,552][t3sc.utils.tester][INFO] - 	MSAM : in=0.1804, out=0.0178
+[2025-03-23 16:42:09,552][t3sc.utils.tester][INFO] - 	MERGAS : in=5.5244, out=0.6365
+[2025-03-23 16:42:09,552][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:42:09,552][t3sc.utils.tester][DEBUG] - No crop found for tree_0822-0853, not saving to RGB
+[2025-03-23 16:42:09,552][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:42:09,731][t3sc.utils.tester][INFO] - Image ID 50/50: ulm_0328-1118
+[2025-03-23 16:42:09,731][t3sc.utils.tester][DEBUG] - x input shape : torch.Size([1, 31, 1392, 1021])
+[2025-03-23 16:42:09,732][t3sc.models.base][DEBUG] - Starting block inference
+[2025-03-23 16:42:09,732][t3sc.models.base][DEBUG] - Forward patches handler
+[2025-03-23 16:42:09,732][t3sc.models.base][DEBUG] - blocks grid : torch.Size([1, 31, 256, 256, 6, 5])
+[2025-03-23 16:42:09,732][t3sc.models.base][DEBUG] - Processing blocks (6, 5)
+[2025-03-23 16:42:30,264][t3sc.models.utils.patches_handler][DEBUG] - Initializing fold, padded shape: (np.int64(1506), np.int64(1256))
+[2025-03-23 16:42:30,264][t3sc.models.base][DEBUG] - Blocks aggregated to shape : (1, 31, 1392, 1021)
+[2025-03-23 16:42:30,265][t3sc.utils.tester][DEBUG] - Inference done
+[2025-03-23 16:42:30,265][t3sc.utils.tester][DEBUG] - Computing denoising metrics..
+[2025-03-23 16:42:34,519][t3sc.utils.tester][DEBUG] - Computing PSNR
+[2025-03-23 16:42:34,528][t3sc.utils.tester][DEBUG] - Computing MPSNR
+[2025-03-23 16:42:35,219][t3sc.utils.tester][DEBUG] - Computing MSSIM
+[2025-03-23 16:42:46,283][t3sc.utils.tester][DEBUG] - Computing MFSIM (s=1021)
+[2025-03-23 16:42:55,204][t3sc.utils.tester][DEBUG] - Computing MERGAS
+[2025-03-23 16:42:56,020][t3sc.utils.tester][DEBUG] - Computing MSAM
+[2025-03-23 16:42:56,521][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:42:57,064][t3sc.models.metrics.metrics][DEBUG] - tmp value > 1 : False
+[2025-03-23 16:42:57,107][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7549, out=0.9962
+[2025-03-23 16:42:57,108][t3sc.utils.tester][INFO] - 	MPSNR : in=34.2412, out=52.1653
+[2025-03-23 16:42:57,108][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9928, out=0.9996
+[2025-03-23 16:42:57,108][t3sc.utils.tester][INFO] - 	PSNR : in=34.2381, out=51.7160
+[2025-03-23 16:42:57,108][t3sc.utils.tester][INFO] - 	MSAM : in=0.1827, out=0.0147
+[2025-03-23 16:42:57,108][t3sc.utils.tester][INFO] - 	MERGAS : in=5.4498, out=0.6567
+[2025-03-23 16:42:57,108][t3sc.utils.tester][INFO] - Image metrics :
+[2025-03-23 16:42:57,108][t3sc.utils.tester][DEBUG] - No crop found for ulm_0328-1118, not saving to RGB
+[2025-03-23 16:42:57,108][t3sc.utils.tester][DEBUG] - {'grf_0328-0949': {'crop': [550, 720, 650, 820], 'rgb': [8, 14, 27]}, 'nachal_0823-1110': {'crop': [500, 450, 600, 550], 'rgb': [8, 14, 27]}, 'nachal_0823-1144': {'crop': [700, 600, 800, 700], 'rgb': [8, 14, 27]}, 'negev_0823-1005': {'crop': [580, 670, 680, 770], 'rgb': [8, 14, 27]}, 'omer_0331-1118': {'crop': [250, 740, 350, 840], 'rgb': [8, 14, 27]}, 'bulb_0822-0909': {'crop': [750, 1110, 850, 1210], 'rgb': [8, 14, 27]}, 'objects_0924-1636': {'crop': [575, 1075, 675, 1175], 'rgb': [8, 14, 27]}, 'rmt_0328-1241-1': {'crop': [175, 740, 275, 840], 'rgb': [8, 14, 27]}, 'rsh_0406-1441-1': {'crop': [740, 760, 840, 860], 'rgb': [8, 14, 27]}}
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - ----------------
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - Global metrics :
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - 	INFERENCE_TIME : 24.6235
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - 	MSSIM : in=0.7619, out=0.9960
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - 	MPSNR : in=34.4791, out=52.6193
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - 	MFSIM : in=0.9955, out=0.9997
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - 	PSNR : in=34.4671, out=52.1144
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - 	MSAM : in=0.2460, out=0.0224
+[2025-03-23 16:42:57,227][t3sc.utils.tester][INFO] - 	MERGAS : in=6.1816, out=0.7083
+[2025-03-23 16:42:57,248][t3sc.utils.tester][INFO] - Metrics saved to 'test_metrics.json'
+[2025-03-23 16:42:57,248][t3sc.utils.tester][INFO] - Current workdir : /content/data/tests/2025-03-23_15-41-05/T3SC_icvl_ConstantNoise-v5_beta0_ssl0_seed0
