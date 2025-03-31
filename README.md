@@ -11,7 +11,25 @@ This project focuses on testing the model proposed in the paper: **"A Trainable 
 - **Link:** https://proceedings.neurips.cc/paper/2021/file/2b515e2bdd63b7f034269ad747c93a42-Paper.pdf  
 
 ## 📁 Repository Structure
-📂 project-root │-- 📂 data/ # Datasets used for testing │-- 📂 models/ # Model weights and configurations │-- 📂 results/ # Output images, metrics, and plots │-- 📂 scripts/ # Python scripts for preprocessing, evaluation, and visualization │-- 📜 README.md # Project documentation (this file) │-- 📜 requirements.txt # Required dependencies │-- 📜 main.ipynb # Jupyter Notebook for running tests
+📂 project-root/
+│
+├── 📂 pretrained_models/          # Your fine-tuned models
+│   ├── 📄 epoch11.ckpt           # Trained for dcmall data 11 epochs (11,057 KB)
+│   ├── 📄 icvl_constant_5.ckpt    # Constant noise σ=5 (9,781 KB)
+│   └── 📄 icvl_uniform_95.ckpt   # Uniform noise σ=95 (10,686 KB)
+│
+├── 📂 results/                    # Your experimental outputs
+│   ├── 📂 2025-03-23_15-41-05/   # Tests on constant σ=5
+│   └── 📂 2025-03-30_22-52-17/   # Tests on stripes σ=25
+│
+├── 📂 t3sc/                       # Original TS3C repo 
+│   ├── 📂 data/                   # Original datasets
+│   ├── 📂 models/                 # Baseline architectures
+│   └── 📜 LICENSE                 # Original license
+│
+├── 📜 .gitignore                  # Custom excludes (e.g., .ckpt)
+├── 📜 README.md                   
+└── 📜 requirements.txt            # updated requirements
 
 ## 🛠️ Code Modifications
 1) **Less Requirements**  
@@ -33,82 +51,44 @@ Since the progress_bar_refresh_rate argument and other configurations are no lon
 
 3) **Changes in data/factories/icvl**
 The download function in the data/factories/icvl directory has been modified due to the old URL being no longer valid. Additionally, the download mechanism was updated to use the requests library instead of subprocess. This change was made to avoid errors caused by the previous method, ensuring a more reliable and efficient downloading process for datasets.
-bash
-Copy
-Edit
 
-## 🚀 Installation & Setup  
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-2️⃣ Install Dependencies
-It's recommended to use a virtual environment:
+4) **Changes in in t3sc/models/multilayer.py**
+In the t3sc/models/multilayer.py file, the following line was modified:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Download Datasets
-Dataset Used: [ICVL / DC Mall / Other dataset names]
+```python
 
-Provide instructions to download and place datasets in the /data directory.
+d = torch.load(to_absolute_path(self.ckpt), weights_only=False)
+```
+The weights_only=False argument was explicitly added to prevent errors during model loading.
 
-🎯 Experiments & Results
-✅ Model Training & Testing
-Pretrained Model: [Link to pretrained weights if available]
 
-Datasets: Mention dataset sizes, preprocessing steps
 
-Noise Types Tested: [Gaussian, Poisson, Mixed, etc.]
+## 🔬 Experimental Setup & Results
 
-Training Details: (if applicable) Number of epochs, learning rate, hardware used
+We conducted several experiments to evaluate the model's performance under different noise conditions, datasets, and explainability analyses. These experiments provide insights into the model's robustness, generalization, and interpretability. The results of these experiments can be found in the provided Jupyter Notebook.
 
-📊 Key Observations
-Performance on different noise levels
+### 📌 Inference & Model Evaluation  
+We tested the pretrained model under different noise conditions to assess its denoising capabilities:  
+- **Evaluate Model Performance on Noise with Constant Sigma = 5, Trained on Constant Sigma = 5 Noise**  
+- **Evaluate Model Performance on Noise with Stripes (Sigma = 25), Trained on Constant Sigma = 5**  
+- **Comparing the Performance of a Model Trained on Uniform Noise with Striped Noise**  
 
-Limitations (e.g., oversmoothing, loss of high-frequency details)
+These experiments help determine how well the model generalizes to different noise distributions.
 
-Computational constraints (e.g., long training time)
+### 📌 Training on the DCMall Dataset  
+To further test the model's adaptability, we trained and evaluated it on the DCMall dataset with various noise conditions:  
+- **Training and Testing with DCMall**  
+- **Training on the DCMall Dataset with Uniform Gaussian Noise (Variance = 55)**  
 
-📷 Visualization
-Sample images before/after denoising
+These tests assess the model's ability to handle real-world hyperspectral imaging data with varying noise levels.
 
-Heatmaps of residual noise
+### 📌 Explainability & Analysis  
+We also applied explainability methods to better understand how the model makes decisions and what factors influence its performance:  
+- **Residuals Heatmap**  
+- **How Does the Denoising Error Vary Across Spectral Bands?**  
+- **Dictionary Composition for Sparse Coding in Hyperspectral Imaging**  
 
-Spectral error plots
+These analyses provide insights into the effectiveness of sparse coding and highlight which spectral bands contribute most to the denoising process.
 
-🛠️ Usage
-Run Testing Script
-bash
-Copy
-Edit
-python scripts/test_model.py --data_path data/icvl --model_path models/pretrained.pth
-Run Jupyter Notebook
-bash
-Copy
-Edit
-jupyter notebook main.ipynb
-📝 Future Work
-Exploring alternative denoising techniques
+All results and visualizations are available in the Jupyter Notebook.
 
-Fine-tuning the model on different datasets
-
-Investigating explainability methods
-
-👨‍💻 Contributors
-Your Name (@your-github)
-
-[Other contributors if applicable]
-
-📜 License
-[Specify the license, e.g., MIT License]
-
-📬 Contact
-For any questions, feel free to reach out via [your email] or open an issue.
-
-nginx
-Copy
-Edit
-
-Tout est bien en un seul bloc cette fois ! 🚀
